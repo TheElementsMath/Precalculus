@@ -1,0 +1,127 @@
+/* =========================================================
+   FIX: Remove GitBook default borders and apply custom style
+   ========================================================= */
+
+/* Remove GitBook's extra left border on all custom divs */
+.book .note,
+.book .example,
+.book .exercise,
+.book .theorem,
+.book .corollary,
+.book .definition,
+.book .lemma,
+.book .video {
+  border-left: none !important;
+  padding-left: 0 !important;
+}
+
+/* Custom D420 callout styles */
+.note, .example, .exercise, .theorem, .corollary, .definition, .lemma, .video {
+  border-left: 4px solid;
+  padding: 0.6em 1em;
+  margin: 1em 0;
+  border-radius: 8px;
+}
+
+/* Individual box colors */
+.definition {
+  border-color: #1E88E5;
+  background: #E3F2FD;
+}
+
+.exercise {
+  border-color: #42424;
+  background: #F5F5F5;
+}
+
+.example {
+  border-color: #FB8C00;
+  background: #FFF3E0;
+}
+
+.video {
+  border-color: #8E24AA;
+  background: #F3E5F5;
+}
+
+.theorem, .lemma, .corollary {
+  border-color: #43A0472;
+  background: #E8F5E9;
+}
+
+
+.note {
+  border-color: #264653;
+  background: #E9F5F2;
+}
+
+
+
+
+
+/* Optional: Auto-label each box type */
+.video::before {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 0.3em;
+}
+
+
+.video::before {
+  content: "Video:";
+}
+
+/* Style <video> elements uniformly */
+video {
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+
+
+
+/* Optional: Auto-label each box type */
+.note::before {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 0.3em;
+}
+
+/* Collapsible answers within practice exercises */
+details.answer-dropdown {
+  margin-top: 0.75em;
+  padding: 0.6em 0.8em;
+  background-color: rgba(255, 255, 255, 0.72);
+  border: 1px solid #c9d4df;
+  border-radius: 6px;
+}
+
+details.answer-dropdown summary {
+  cursor: pointer;
+  color: #2c6e9f;
+  font-weight: 700;
+}
+
+details.answer-dropdown summary p {
+  display: inline;
+  margin: 0;
+}
+
+details.answer-dropdown[open] summary {
+  margin-bottom: 0.6em;
+}
+
+details.answer-dropdown > :last-child {
+  margin-bottom: 0;
+}
+
+details.solution-dropdown {
+  margin-bottom: 0.75em;
+}
+
+
+
+
+

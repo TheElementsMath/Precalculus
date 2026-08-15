@@ -1,0 +1,16 @@
+book_filename: "precalculus"
+delete_merged_file: true
+new_session: true
+language:
+  ui:
+    chapter_name: "Chapter "
+rmd_files:
+  - "index.Rmd"
+  - "01-fundamentals.Rmd"
+  - "02-functions.Rmd"
+  - "03-polynomial-rational-functions.Rmd"
+  - "04-exponential-logarithmic-functions.Rmd"
+  - "05-trigonometric-functions-real-numbers.Rmd"
+  - "06-trigonometric-functions-angles.Rmd"
+  - "07-analytic-trigonometry.Rmd"
+output_dir: "docs"

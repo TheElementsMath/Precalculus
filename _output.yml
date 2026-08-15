@@ -1,0 +1,11 @@
+bookdown::gitbook:
+  css: style.css
+  split_by: section
+  config:
+    toc:
+      collapse: section
+      before: |
+        <li><a href="./">Precalculus</a></li>
+    sharing: null
+    download: null
+

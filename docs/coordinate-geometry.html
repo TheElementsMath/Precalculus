@@ -1,0 +1,977 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>1.8 Coordinate Geometry | Precalculus: Concepts, Skills, and Applications</title>
+  <meta name="description" content="<p>A student-friendly precalculus textbook for Grade 11 and 12 students
+preparing for post-secondary mathematics. This book provides concise
+explanations, worked examples, embedded practice, conceptual summaries,
+and complete solutions, with applications in science, engineering,
+business, and data analytics.</p>" />
+  <meta name="generator" content="bookdown 0.47 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="1.8 Coordinate Geometry | Precalculus: Concepts, Skills, and Applications" />
+  <meta property="og:type" content="book" />
+  
+  <meta property="og:description" content="<p>A student-friendly precalculus textbook for Grade 11 and 12 students
+preparing for post-secondary mathematics. This book provides concise
+explanations, worked examples, embedded practice, conceptual summaries,
+and complete solutions, with applications in science, engineering,
+business, and data analytics.</p>" />
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="1.8 Coordinate Geometry | Precalculus: Concepts, Skills, and Applications" />
+  
+  <meta name="twitter:description" content="<p>A student-friendly precalculus textbook for Grade 11 and 12 students
+preparing for post-secondary mathematics. This book provides concise
+explanations, worked examples, embedded practice, conceptual summaries,
+and complete solutions, with applications in science, engineering,
+business, and data analytics.</p>" />
+  
+
+<meta name="author" content="The Elements Math" />
+
+
+<meta name="date" content="2026-01-01" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="inequalities.html"/>
+<link rel="next" href="graphing-with-desmos-solving-equations-and-inequalities-graphically.html"/>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
+
+
+
+<style type="text/css">
+  
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+</style>
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">Precalculus</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Welcome</a></li>
+<li class="chapter" data-level="1" data-path="fundamentals.html"><a href="fundamentals.html"><i class="fa fa-check"></i><b>1</b> Fundamentals</a>
+<ul>
+<li class="chapter" data-level="1.1" data-path="real-numbers.html"><a href="real-numbers.html"><i class="fa fa-check"></i><b>1.1</b> Real Numbers</a>
+<ul>
+<li class="chapter" data-level="1.1.1" data-path="real-numbers.html"><a href="real-numbers.html#learning-objectives"><i class="fa fa-check"></i><b>1.1.1</b> Learning Objectives</a></li>
+<li class="chapter" data-level="1.1.2" data-path="real-numbers.html"><a href="real-numbers.html#the-real-number-system"><i class="fa fa-check"></i><b>1.1.2</b> The Real Number System</a></li>
+<li class="chapter" data-level="1.1.3" data-path="real-numbers.html"><a href="real-numbers.html#properties-of-real-numbers"><i class="fa fa-check"></i><b>1.1.3</b> Properties of Real Numbers</a></li>
+<li class="chapter" data-level="1.1.4" data-path="real-numbers.html"><a href="real-numbers.html#fractions"><i class="fa fa-check"></i><b>1.1.4</b> Fractions</a></li>
+<li class="chapter" data-level="1.1.5" data-path="real-numbers.html"><a href="real-numbers.html#the-real-number-line"><i class="fa fa-check"></i><b>1.1.5</b> The Real Number Line</a></li>
+<li class="chapter" data-level="1.1.6" data-path="real-numbers.html"><a href="real-numbers.html#sets-and-intervals"><i class="fa fa-check"></i><b>1.1.6</b> Sets and Intervals</a></li>
+<li class="chapter" data-level="1.1.7" data-path="real-numbers.html"><a href="real-numbers.html#absolute-value-and-distance"><i class="fa fa-check"></i><b>1.1.7</b> Absolute Value and Distance</a></li>
+<li class="chapter" data-level="1.1.8" data-path="real-numbers.html"><a href="real-numbers.html#conceptual-takeaways"><i class="fa fa-check"></i><b>1.1.8</b> Conceptual Takeaways</a></li>
+<li class="chapter" data-level="1.1.9" data-path="real-numbers.html"><a href="real-numbers.html#skills-you-should-be-able-to-do"><i class="fa fa-check"></i><b>1.1.9</b> Skills You Should Be Able to Do</a></li>
+<li class="chapter" data-level="1.1.10" data-path="real-numbers.html"><a href="real-numbers.html#practice-problems-with-solutions"><i class="fa fa-check"></i><b>1.1.10</b> Practice Problems with Solutions</a></li>
+</ul></li>
+<li class="chapter" data-level="1.2" data-path="exponents-and-radicals.html"><a href="exponents-and-radicals.html"><i class="fa fa-check"></i><b>1.2</b> Exponents and Radicals</a>
+<ul>
+<li class="chapter" data-level="1.2.1" data-path="exponents-and-radicals.html"><a href="exponents-and-radicals.html#learning-objectives-1"><i class="fa fa-check"></i><b>1.2.1</b> Learning Objectives</a></li>
+<li class="chapter" data-level="1.2.2" data-path="exponents-and-radicals.html"><a href="exponents-and-radicals.html#integer-exponents-and-exponent-laws"><i class="fa fa-check"></i><b>1.2.2</b> Integer Exponents and Exponent Laws</a></li>
+<li class="chapter" data-level="1.2.3" data-path="exponents-and-radicals.html"><a href="exponents-and-radicals.html#scientific-notation"><i class="fa fa-check"></i><b>1.2.3</b> Scientific Notation</a></li>
+<li class="chapter" data-level="1.2.4" data-path="exponents-and-radicals.html"><a href="exponents-and-radicals.html#radicals-and-nth-roots"><i class="fa fa-check"></i><b>1.2.4</b> Radicals and <span class="math inline">\(n\)</span>th Roots</a></li>
+<li class="chapter" data-level="1.2.5" data-path="exponents-and-radicals.html"><a href="exponents-and-radicals.html#rational-exponents"><i class="fa fa-check"></i><b>1.2.5</b> Rational Exponents</a></li>
+<li class="chapter" data-level="1.2.6" data-path="exponents-and-radicals.html"><a href="exponents-and-radicals.html#combining-radicals-and-rationalizing-denominators"><i class="fa fa-check"></i><b>1.2.6</b> Combining Radicals and Rationalizing Denominators</a></li>
+<li class="chapter" data-level="1.2.7" data-path="exponents-and-radicals.html"><a href="exponents-and-radicals.html#conceptual-takeaways-1"><i class="fa fa-check"></i><b>1.2.7</b> Conceptual Takeaways</a></li>
+<li class="chapter" data-level="1.2.8" data-path="exponents-and-radicals.html"><a href="exponents-and-radicals.html#skills-you-should-be-able-to-do-1"><i class="fa fa-check"></i><b>1.2.8</b> Skills You Should Be Able to Do</a></li>
+<li class="chapter" data-level="1.2.9" data-path="exponents-and-radicals.html"><a href="exponents-and-radicals.html#practice-problems-with-solutions-1"><i class="fa fa-check"></i><b>1.2.9</b> Practice Problems with Solutions</a></li>
+</ul></li>
+<li class="chapter" data-level="1.3" data-path="algebraic-expressions.html"><a href="algebraic-expressions.html"><i class="fa fa-check"></i><b>1.3</b> Algebraic Expressions</a>
+<ul>
+<li class="chapter" data-level="1.3.1" data-path="algebraic-expressions.html"><a href="algebraic-expressions.html#learning-objectives-2"><i class="fa fa-check"></i><b>1.3.1</b> Learning Objectives</a></li>
+<li class="chapter" data-level="1.3.2" data-path="algebraic-expressions.html"><a href="algebraic-expressions.html#algebraic-expressions-and-polynomials"><i class="fa fa-check"></i><b>1.3.2</b> Algebraic Expressions and Polynomials</a></li>
+<li class="chapter" data-level="1.3.3" data-path="algebraic-expressions.html"><a href="algebraic-expressions.html#multiplying-polynomials-and-special-products"><i class="fa fa-check"></i><b>1.3.3</b> Multiplying Polynomials and Special Products</a></li>
+<li class="chapter" data-level="1.3.4" data-path="algebraic-expressions.html"><a href="algebraic-expressions.html#factoring-polynomials"><i class="fa fa-check"></i><b>1.3.4</b> Factoring Polynomials</a></li>
+<li class="chapter" data-level="1.3.5" data-path="algebraic-expressions.html"><a href="algebraic-expressions.html#conceptual-takeaways-2"><i class="fa fa-check"></i><b>1.3.5</b> Conceptual Takeaways</a></li>
+<li class="chapter" data-level="1.3.6" data-path="algebraic-expressions.html"><a href="algebraic-expressions.html#skills-you-should-be-able-to-do-2"><i class="fa fa-check"></i><b>1.3.6</b> Skills You Should Be Able to Do</a></li>
+<li class="chapter" data-level="1.3.7" data-path="algebraic-expressions.html"><a href="algebraic-expressions.html#practice-problems-with-solutions-2"><i class="fa fa-check"></i><b>1.3.7</b> Practice Problems with Solutions</a></li>
+</ul></li>
+<li class="chapter" data-level="1.4" data-path="rational-expressions.html"><a href="rational-expressions.html"><i class="fa fa-check"></i><b>1.4</b> Rational Expressions</a>
+<ul>
+<li class="chapter" data-level="1.4.1" data-path="rational-expressions.html"><a href="rational-expressions.html#learning-objectives-3"><i class="fa fa-check"></i><b>1.4.1</b> Learning Objectives</a></li>
+<li class="chapter" data-level="1.4.2" data-path="rational-expressions.html"><a href="rational-expressions.html#rational-expressions-and-domain"><i class="fa fa-check"></i><b>1.4.2</b> Rational Expressions and Domain</a></li>
+<li class="chapter" data-level="1.4.3" data-path="rational-expressions.html"><a href="rational-expressions.html#simplifying-rational-expressions"><i class="fa fa-check"></i><b>1.4.3</b> Simplifying Rational Expressions</a></li>
+<li class="chapter" data-level="1.4.4" data-path="rational-expressions.html"><a href="rational-expressions.html#multiplying-and-dividing-rational-expressions"><i class="fa fa-check"></i><b>1.4.4</b> Multiplying and Dividing Rational Expressions</a></li>
+<li class="chapter" data-level="1.4.5" data-path="rational-expressions.html"><a href="rational-expressions.html#adding-and-subtracting-rational-expressions"><i class="fa fa-check"></i><b>1.4.5</b> Adding and Subtracting Rational Expressions</a></li>
+<li class="chapter" data-level="1.4.6" data-path="rational-expressions.html"><a href="rational-expressions.html#compound-fractions-and-rationalizing-binomials"><i class="fa fa-check"></i><b>1.4.6</b> Compound Fractions and Rationalizing Binomials</a></li>
+<li class="chapter" data-level="1.4.7" data-path="rational-expressions.html"><a href="rational-expressions.html#conceptual-takeaways-3"><i class="fa fa-check"></i><b>1.4.7</b> Conceptual Takeaways</a></li>
+<li class="chapter" data-level="1.4.8" data-path="rational-expressions.html"><a href="rational-expressions.html#skills-you-should-be-able-to-do-3"><i class="fa fa-check"></i><b>1.4.8</b> Skills You Should Be Able to Do</a></li>
+<li class="chapter" data-level="1.4.9" data-path="rational-expressions.html"><a href="rational-expressions.html#practice-problems-with-solutions-3"><i class="fa fa-check"></i><b>1.4.9</b> Practice Problems with Solutions</a></li>
+</ul></li>
+<li class="chapter" data-level="1.5" data-path="equations.html"><a href="equations.html"><i class="fa fa-check"></i><b>1.5</b> Equations</a>
+<ul>
+<li class="chapter" data-level="1.5.1" data-path="equations.html"><a href="equations.html#learning-objectives-4"><i class="fa fa-check"></i><b>1.5.1</b> Learning Objectives</a></li>
+<li class="chapter" data-level="1.5.2" data-path="equations.html"><a href="equations.html#linear-equations-and-rearranging-formulas"><i class="fa fa-check"></i><b>1.5.2</b> Linear Equations and Rearranging Formulas</a></li>
+<li class="chapter" data-level="1.5.3" data-path="equations.html"><a href="equations.html#quadratic-equations"><i class="fa fa-check"></i><b>1.5.3</b> Quadratic Equations</a></li>
+<li class="chapter" data-level="1.5.4" data-path="equations.html"><a href="equations.html#rational-and-radical-equations"><i class="fa fa-check"></i><b>1.5.4</b> Rational and Radical Equations</a></li>
+<li class="chapter" data-level="1.5.5" data-path="equations.html"><a href="equations.html#quadratic-type-and-absolute-value-equations"><i class="fa fa-check"></i><b>1.5.5</b> Quadratic-Type and Absolute-Value Equations</a></li>
+<li class="chapter" data-level="1.5.6" data-path="equations.html"><a href="equations.html#conceptual-takeaways-4"><i class="fa fa-check"></i><b>1.5.6</b> Conceptual Takeaways</a></li>
+<li class="chapter" data-level="1.5.7" data-path="equations.html"><a href="equations.html#skills-you-should-be-able-to-do-4"><i class="fa fa-check"></i><b>1.5.7</b> Skills You Should Be Able to Do</a></li>
+<li class="chapter" data-level="1.5.8" data-path="equations.html"><a href="equations.html#practice-problems-with-solutions-4"><i class="fa fa-check"></i><b>1.5.8</b> Practice Problems with Solutions</a></li>
+</ul></li>
+<li class="chapter" data-level="1.6" data-path="modeling-with-equations.html"><a href="modeling-with-equations.html"><i class="fa fa-check"></i><b>1.6</b> Modeling with Equations</a>
+<ul>
+<li class="chapter" data-level="1.6.1" data-path="modeling-with-equations.html"><a href="modeling-with-equations.html#learning-objectives-5"><i class="fa fa-check"></i><b>1.6.1</b> Learning Objectives</a></li>
+<li class="chapter" data-level="1.6.2" data-path="modeling-with-equations.html"><a href="modeling-with-equations.html#building-a-mathematical-model"><i class="fa fa-check"></i><b>1.6.2</b> Building a Mathematical Model</a></li>
+<li class="chapter" data-level="1.6.3" data-path="modeling-with-equations.html"><a href="modeling-with-equations.html#cost-and-integer-models"><i class="fa fa-check"></i><b>1.6.3</b> Cost and Integer Models</a></li>
+<li class="chapter" data-level="1.6.4" data-path="modeling-with-equations.html"><a href="modeling-with-equations.html#interest-and-motion-models"><i class="fa fa-check"></i><b>1.6.4</b> Interest and Motion Models</a></li>
+<li class="chapter" data-level="1.6.5" data-path="modeling-with-equations.html"><a href="modeling-with-equations.html#work-rate-models"><i class="fa fa-check"></i><b>1.6.5</b> Work-Rate Models</a></li>
+<li class="chapter" data-level="1.6.6" data-path="modeling-with-equations.html"><a href="modeling-with-equations.html#mixture-models"><i class="fa fa-check"></i><b>1.6.6</b> Mixture Models</a></li>
+<li class="chapter" data-level="1.6.7" data-path="modeling-with-equations.html"><a href="modeling-with-equations.html#geometry-models"><i class="fa fa-check"></i><b>1.6.7</b> Geometry Models</a></li>
+<li class="chapter" data-level="1.6.8" data-path="modeling-with-equations.html"><a href="modeling-with-equations.html#conceptual-takeaways-5"><i class="fa fa-check"></i><b>1.6.8</b> Conceptual Takeaways</a></li>
+<li class="chapter" data-level="1.6.9" data-path="modeling-with-equations.html"><a href="modeling-with-equations.html#skills-you-should-be-able-to-do-5"><i class="fa fa-check"></i><b>1.6.9</b> Skills You Should Be Able to Do</a></li>
+<li class="chapter" data-level="1.6.10" data-path="modeling-with-equations.html"><a href="modeling-with-equations.html#practice-problems-with-solutions-5"><i class="fa fa-check"></i><b>1.6.10</b> Practice Problems with Solutions</a></li>
+</ul></li>
+<li class="chapter" data-level="1.7" data-path="inequalities.html"><a href="inequalities.html"><i class="fa fa-check"></i><b>1.7</b> Inequalities</a>
+<ul>
+<li class="chapter" data-level="1.7.1" data-path="inequalities.html"><a href="inequalities.html#learning-objectives-6"><i class="fa fa-check"></i><b>1.7.1</b> Learning Objectives</a></li>
+<li class="chapter" data-level="1.7.2" data-path="inequalities.html"><a href="inequalities.html#linear-and-compound-inequalities"><i class="fa fa-check"></i><b>1.7.2</b> Linear and Compound Inequalities</a></li>
+<li class="chapter" data-level="1.7.3" data-path="inequalities.html"><a href="inequalities.html#polynomial-and-rational-inequalities"><i class="fa fa-check"></i><b>1.7.3</b> Polynomial and Rational Inequalities</a></li>
+<li class="chapter" data-level="1.7.4" data-path="inequalities.html"><a href="inequalities.html#absolute-value-inequalities"><i class="fa fa-check"></i><b>1.7.4</b> Absolute-Value Inequalities</a></li>
+<li class="chapter" data-level="1.7.5" data-path="inequalities.html"><a href="inequalities.html#conceptual-takeaways-6"><i class="fa fa-check"></i><b>1.7.5</b> Conceptual Takeaways</a></li>
+<li class="chapter" data-level="1.7.6" data-path="inequalities.html"><a href="inequalities.html#skills-you-should-be-able-to-do-6"><i class="fa fa-check"></i><b>1.7.6</b> Skills You Should Be Able to Do</a></li>
+<li class="chapter" data-level="1.7.7" data-path="inequalities.html"><a href="inequalities.html#practice-problems-with-solutions-6"><i class="fa fa-check"></i><b>1.7.7</b> Practice Problems with Solutions</a></li>
+</ul></li>
+<li class="chapter" data-level="1.8" data-path="coordinate-geometry.html"><a href="coordinate-geometry.html"><i class="fa fa-check"></i><b>1.8</b> Coordinate Geometry</a>
+<ul>
+<li class="chapter" data-level="1.8.1" data-path="coordinate-geometry.html"><a href="coordinate-geometry.html#learning-objectives-7"><i class="fa fa-check"></i><b>1.8.1</b> Learning Objectives</a></li>
+<li class="chapter" data-level="1.8.2" data-path="coordinate-geometry.html"><a href="coordinate-geometry.html#points-distance-and-midpoint"><i class="fa fa-check"></i><b>1.8.2</b> Points, Distance, and Midpoint</a></li>
+<li class="chapter" data-level="1.8.3" data-path="coordinate-geometry.html"><a href="coordinate-geometry.html#graphs-and-intercepts"><i class="fa fa-check"></i><b>1.8.3</b> Graphs and Intercepts</a></li>
+<li class="chapter" data-level="1.8.4" data-path="coordinate-geometry.html"><a href="coordinate-geometry.html#circles"><i class="fa fa-check"></i><b>1.8.4</b> Circles</a></li>
+<li class="chapter" data-level="1.8.5" data-path="coordinate-geometry.html"><a href="coordinate-geometry.html#symmetry"><i class="fa fa-check"></i><b>1.8.5</b> Symmetry</a></li>
+<li class="chapter" data-level="1.8.6" data-path="coordinate-geometry.html"><a href="coordinate-geometry.html#conceptual-takeaways-7"><i class="fa fa-check"></i><b>1.8.6</b> Conceptual Takeaways</a></li>
+<li class="chapter" data-level="1.8.7" data-path="coordinate-geometry.html"><a href="coordinate-geometry.html#skills-you-should-be-able-to-do-7"><i class="fa fa-check"></i><b>1.8.7</b> Skills You Should Be Able to Do</a></li>
+<li class="chapter" data-level="1.8.8" data-path="coordinate-geometry.html"><a href="coordinate-geometry.html#practice-problems-with-solutions-7"><i class="fa fa-check"></i><b>1.8.8</b> Practice Problems with Solutions</a></li>
+</ul></li>
+<li class="chapter" data-level="1.9" data-path="graphing-with-desmos-solving-equations-and-inequalities-graphically.html"><a href="graphing-with-desmos-solving-equations-and-inequalities-graphically.html"><i class="fa fa-check"></i><b>1.9</b> Graphing with Desmos: Solving Equations and Inequalities Graphically</a>
+<ul>
+<li class="chapter" data-level="1.9.1" data-path="graphing-with-desmos-solving-equations-and-inequalities-graphically.html"><a href="graphing-with-desmos-solving-equations-and-inequalities-graphically.html#learning-objectives-8"><i class="fa fa-check"></i><b>1.9.1</b> Learning Objectives</a></li>
+<li class="chapter" data-level="1.9.2" data-path="graphing-with-desmos-solving-equations-and-inequalities-graphically.html"><a href="graphing-with-desmos-solving-equations-and-inequalities-graphically.html#viewing-windows"><i class="fa fa-check"></i><b>1.9.2</b> Viewing Windows</a></li>
+<li class="chapter" data-level="1.9.3" data-path="graphing-with-desmos-solving-equations-and-inequalities-graphically.html"><a href="graphing-with-desmos-solving-equations-and-inequalities-graphically.html#solving-equations-graphically"><i class="fa fa-check"></i><b>1.9.3</b> Solving Equations Graphically</a></li>
+<li class="chapter" data-level="1.9.4" data-path="graphing-with-desmos-solving-equations-and-inequalities-graphically.html"><a href="graphing-with-desmos-solving-equations-and-inequalities-graphically.html#solving-inequalities-graphically"><i class="fa fa-check"></i><b>1.9.4</b> Solving Inequalities Graphically</a></li>
+<li class="chapter" data-level="1.9.5" data-path="graphing-with-desmos-solving-equations-and-inequalities-graphically.html"><a href="graphing-with-desmos-solving-equations-and-inequalities-graphically.html#implicit-and-restricted-relations"><i class="fa fa-check"></i><b>1.9.5</b> Implicit and Restricted Relations</a></li>
+<li class="chapter" data-level="1.9.6" data-path="graphing-with-desmos-solving-equations-and-inequalities-graphically.html"><a href="graphing-with-desmos-solving-equations-and-inequalities-graphically.html#conceptual-takeaways-8"><i class="fa fa-check"></i><b>1.9.6</b> Conceptual Takeaways</a></li>
+<li class="chapter" data-level="1.9.7" data-path="graphing-with-desmos-solving-equations-and-inequalities-graphically.html"><a href="graphing-with-desmos-solving-equations-and-inequalities-graphically.html#skills-you-should-be-able-to-do-8"><i class="fa fa-check"></i><b>1.9.7</b> Skills You Should Be Able to Do</a></li>
+<li class="chapter" data-level="1.9.8" data-path="graphing-with-desmos-solving-equations-and-inequalities-graphically.html"><a href="graphing-with-desmos-solving-equations-and-inequalities-graphically.html#practice-problems-with-solutions-8"><i class="fa fa-check"></i><b>1.9.8</b> Practice Problems with Solutions</a></li>
+</ul></li>
+<li class="chapter" data-level="1.10" data-path="lines.html"><a href="lines.html"><i class="fa fa-check"></i><b>1.10</b> Lines</a>
+<ul>
+<li class="chapter" data-level="1.10.1" data-path="lines.html"><a href="lines.html#learning-objectives-9"><i class="fa fa-check"></i><b>1.10.1</b> Learning Objectives</a></li>
+<li class="chapter" data-level="1.10.2" data-path="lines.html"><a href="lines.html#slope"><i class="fa fa-check"></i><b>1.10.2</b> Slope</a></li>
+<li class="chapter" data-level="1.10.3" data-path="lines.html"><a href="lines.html#equations-of-lines"><i class="fa fa-check"></i><b>1.10.3</b> Equations of Lines</a></li>
+<li class="chapter" data-level="1.10.4" data-path="lines.html"><a href="lines.html#horizontal-vertical-parallel-and-perpendicular-lines"><i class="fa fa-check"></i><b>1.10.4</b> Horizontal, Vertical, Parallel, and Perpendicular Lines</a></li>
+<li class="chapter" data-level="1.10.5" data-path="lines.html"><a href="lines.html#linear-models-and-rates-of-change"><i class="fa fa-check"></i><b>1.10.5</b> Linear Models and Rates of Change</a></li>
+<li class="chapter" data-level="1.10.6" data-path="lines.html"><a href="lines.html#conceptual-takeaways-9"><i class="fa fa-check"></i><b>1.10.6</b> Conceptual Takeaways</a></li>
+<li class="chapter" data-level="1.10.7" data-path="lines.html"><a href="lines.html#skills-you-should-be-able-to-do-9"><i class="fa fa-check"></i><b>1.10.7</b> Skills You Should Be Able to Do</a></li>
+<li class="chapter" data-level="1.10.8" data-path="lines.html"><a href="lines.html#practice-problems-with-solutions-9"><i class="fa fa-check"></i><b>1.10.8</b> Practice Problems with Solutions</a></li>
+</ul></li>
+<li class="chapter" data-level="1.11" data-path="modeling-variation.html"><a href="modeling-variation.html"><i class="fa fa-check"></i><b>1.11</b> Modeling Variation</a>
+<ul>
+<li class="chapter" data-level="1.11.1" data-path="modeling-variation.html"><a href="modeling-variation.html#learning-objectives-10"><i class="fa fa-check"></i><b>1.11.1</b> Learning Objectives</a></li>
+<li class="chapter" data-level="1.11.2" data-path="modeling-variation.html"><a href="modeling-variation.html#direct-variation"><i class="fa fa-check"></i><b>1.11.2</b> Direct Variation</a></li>
+<li class="chapter" data-level="1.11.3" data-path="modeling-variation.html"><a href="modeling-variation.html#inverse-variation"><i class="fa fa-check"></i><b>1.11.3</b> Inverse Variation</a></li>
+<li class="chapter" data-level="1.11.4" data-path="modeling-variation.html"><a href="modeling-variation.html#joint-variation"><i class="fa fa-check"></i><b>1.11.4</b> Joint Variation</a></li>
+<li class="chapter" data-level="1.11.5" data-path="modeling-variation.html"><a href="modeling-variation.html#combined-variation"><i class="fa fa-check"></i><b>1.11.5</b> Combined Variation</a></li>
+<li class="chapter" data-level="1.11.6" data-path="modeling-variation.html"><a href="modeling-variation.html#building-a-variation-model"><i class="fa fa-check"></i><b>1.11.6</b> Building a Variation Model</a></li>
+<li class="chapter" data-level="1.11.7" data-path="modeling-variation.html"><a href="modeling-variation.html#conceptual-takeaways-10"><i class="fa fa-check"></i><b>1.11.7</b> Conceptual Takeaways</a></li>
+<li class="chapter" data-level="1.11.8" data-path="modeling-variation.html"><a href="modeling-variation.html#skills-you-should-be-able-to-do-10"><i class="fa fa-check"></i><b>1.11.8</b> Skills You Should Be Able to Do</a></li>
+<li class="chapter" data-level="1.11.9" data-path="modeling-variation.html"><a href="modeling-variation.html#practice-problems-with-solutions-10"><i class="fa fa-check"></i><b>1.11.9</b> Practice Problems with Solutions</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="functions.html"><a href="functions.html"><i class="fa fa-check"></i><b>2</b> Functions</a>
+<ul>
+<li class="chapter" data-level="2.1" data-path="what-is-a-function.html"><a href="what-is-a-function.html"><i class="fa fa-check"></i><b>2.1</b> What Is a Function?</a>
+<ul>
+<li class="chapter" data-level="2.1.1" data-path="what-is-a-function.html"><a href="what-is-a-function.html#learning-objectives-11"><i class="fa fa-check"></i><b>2.1.1</b> Learning Objectives</a></li>
+<li class="chapter" data-level="2.1.2" data-path="what-is-a-function.html"><a href="what-is-a-function.html#functions-as-input-output-relationships"><i class="fa fa-check"></i><b>2.1.2</b> Functions as Input-Output Relationships</a></li>
+<li class="chapter" data-level="2.1.3" data-path="what-is-a-function.html"><a href="what-is-a-function.html#function-notation-and-evaluation"><i class="fa fa-check"></i><b>2.1.3</b> Function Notation and Evaluation</a></li>
+<li class="chapter" data-level="2.1.4" data-path="what-is-a-function.html"><a href="what-is-a-function.html#piecewise-defined-functions"><i class="fa fa-check"></i><b>2.1.4</b> Piecewise-Defined Functions</a></li>
+<li class="chapter" data-level="2.1.5" data-path="what-is-a-function.html"><a href="what-is-a-function.html#domain-and-range"><i class="fa fa-check"></i><b>2.1.5</b> Domain and Range</a></li>
+<li class="chapter" data-level="2.1.6" data-path="what-is-a-function.html"><a href="what-is-a-function.html#representations-of-functions"><i class="fa fa-check"></i><b>2.1.6</b> Representations of Functions</a></li>
+<li class="chapter" data-level="2.1.7" data-path="what-is-a-function.html"><a href="what-is-a-function.html#conceptual-takeaways-11"><i class="fa fa-check"></i><b>2.1.7</b> Conceptual Takeaways</a></li>
+<li class="chapter" data-level="2.1.8" data-path="what-is-a-function.html"><a href="what-is-a-function.html#skills-you-should-be-able-to-do-11"><i class="fa fa-check"></i><b>2.1.8</b> Skills You Should Be Able to Do</a></li>
+<li class="chapter" data-level="2.1.9" data-path="what-is-a-function.html"><a href="what-is-a-function.html#practice-problems-with-solutions-11"><i class="fa fa-check"></i><b>2.1.9</b> Practice Problems with Solutions</a></li>
+</ul></li>
+<li class="chapter" data-level="2.2" data-path="graphs-of-functions.html"><a href="graphs-of-functions.html"><i class="fa fa-check"></i><b>2.2</b> Graphs of Functions</a>
+<ul>
+<li class="chapter" data-level="2.2.1" data-path="graphs-of-functions.html"><a href="graphs-of-functions.html#learning-objectives-12"><i class="fa fa-check"></i><b>2.2.1</b> Learning Objectives</a></li>
+<li class="chapter" data-level="2.2.2" data-path="graphs-of-functions.html"><a href="graphs-of-functions.html#the-graph-of-a-function"><i class="fa fa-check"></i><b>2.2.2</b> The Graph of a Function</a></li>
+<li class="chapter" data-level="2.2.3" data-path="graphs-of-functions.html"><a href="graphs-of-functions.html#domain-and-range-from-a-graph"><i class="fa fa-check"></i><b>2.2.3</b> Domain and Range from a Graph</a></li>
+<li class="chapter" data-level="2.2.4" data-path="graphs-of-functions.html"><a href="graphs-of-functions.html#piecewise-absolute-value-and-step-graphs"><i class="fa fa-check"></i><b>2.2.4</b> Piecewise, Absolute-Value, and Step Graphs</a></li>
+<li class="chapter" data-level="2.2.5" data-path="graphs-of-functions.html"><a href="graphs-of-functions.html#the-vertical-line-test"><i class="fa fa-check"></i><b>2.2.5</b> The Vertical Line Test</a></li>
+<li class="chapter" data-level="2.2.6" data-path="graphs-of-functions.html"><a href="graphs-of-functions.html#equations-that-define-functions"><i class="fa fa-check"></i><b>2.2.6</b> Equations That Define Functions</a></li>
+<li class="chapter" data-level="2.2.7" data-path="graphs-of-functions.html"><a href="graphs-of-functions.html#desmos-graphing-activity"><i class="fa fa-check"></i><b>2.2.7</b> Desmos Graphing Activity</a></li>
+<li class="chapter" data-level="2.2.8" data-path="graphs-of-functions.html"><a href="graphs-of-functions.html#conceptual-takeaways-12"><i class="fa fa-check"></i><b>2.2.8</b> Conceptual Takeaways</a></li>
+<li class="chapter" data-level="2.2.9" data-path="graphs-of-functions.html"><a href="graphs-of-functions.html#skills-you-should-be-able-to-do-12"><i class="fa fa-check"></i><b>2.2.9</b> Skills You Should Be Able to Do</a></li>
+<li class="chapter" data-level="2.2.10" data-path="graphs-of-functions.html"><a href="graphs-of-functions.html#practice-problems-with-solutions-12"><i class="fa fa-check"></i><b>2.2.10</b> Practice Problems with Solutions</a></li>
+</ul></li>
+<li class="chapter" data-level="2.3" data-path="increasing-and-decreasing-functions-average-rate-of-change.html"><a href="increasing-and-decreasing-functions-average-rate-of-change.html"><i class="fa fa-check"></i><b>2.3</b> Increasing and Decreasing Functions; Average Rate of Change</a>
+<ul>
+<li class="chapter" data-level="2.3.1" data-path="increasing-and-decreasing-functions-average-rate-of-change.html"><a href="increasing-and-decreasing-functions-average-rate-of-change.html#learning-objectives-13"><i class="fa fa-check"></i><b>2.3.1</b> Learning Objectives</a></li>
+<li class="chapter" data-level="2.3.2" data-path="increasing-and-decreasing-functions-average-rate-of-change.html"><a href="increasing-and-decreasing-functions-average-rate-of-change.html#increasing-decreasing-and-constant-behaviour"><i class="fa fa-check"></i><b>2.3.2</b> Increasing, Decreasing, and Constant Behaviour</a></li>
+<li class="chapter" data-level="2.3.3" data-path="increasing-and-decreasing-functions-average-rate-of-change.html"><a href="increasing-and-decreasing-functions-average-rate-of-change.html#local-maximum-and-minimum-values"><i class="fa fa-check"></i><b>2.3.3</b> Local Maximum and Minimum Values</a></li>
+<li class="chapter" data-level="2.3.4" data-path="increasing-and-decreasing-functions-average-rate-of-change.html"><a href="increasing-and-decreasing-functions-average-rate-of-change.html#average-rate-of-change"><i class="fa fa-check"></i><b>2.3.4</b> Average Rate of Change</a></li>
+<li class="chapter" data-level="2.3.5" data-path="increasing-and-decreasing-functions-average-rate-of-change.html"><a href="increasing-and-decreasing-functions-average-rate-of-change.html#interpreting-rate-of-change"><i class="fa fa-check"></i><b>2.3.5</b> Interpreting Rate of Change</a></li>
+<li class="chapter" data-level="2.3.6" data-path="increasing-and-decreasing-functions-average-rate-of-change.html"><a href="increasing-and-decreasing-functions-average-rate-of-change.html#linear-functions-and-constant-rate-of-change"><i class="fa fa-check"></i><b>2.3.6</b> Linear Functions and Constant Rate of Change</a></li>
+<li class="chapter" data-level="2.3.7" data-path="increasing-and-decreasing-functions-average-rate-of-change.html"><a href="increasing-and-decreasing-functions-average-rate-of-change.html#conceptual-takeaways-13"><i class="fa fa-check"></i><b>2.3.7</b> Conceptual Takeaways</a></li>
+<li class="chapter" data-level="2.3.8" data-path="increasing-and-decreasing-functions-average-rate-of-change.html"><a href="increasing-and-decreasing-functions-average-rate-of-change.html#skills-you-should-be-able-to-do-13"><i class="fa fa-check"></i><b>2.3.8</b> Skills You Should Be Able to Do</a></li>
+<li class="chapter" data-level="2.3.9" data-path="increasing-and-decreasing-functions-average-rate-of-change.html"><a href="increasing-and-decreasing-functions-average-rate-of-change.html#practice-problems-with-solutions-13"><i class="fa fa-check"></i><b>2.3.9</b> Practice Problems with Solutions</a></li>
+</ul></li>
+<li class="chapter" data-level="2.4" data-path="transformations-of-functions.html"><a href="transformations-of-functions.html"><i class="fa fa-check"></i><b>2.4</b> Transformations of Functions</a>
+<ul>
+<li class="chapter" data-level="2.4.1" data-path="transformations-of-functions.html"><a href="transformations-of-functions.html#learning-objectives-14"><i class="fa fa-check"></i><b>2.4.1</b> Learning Objectives</a></li>
+<li class="chapter" data-level="2.4.2" data-path="transformations-of-functions.html"><a href="transformations-of-functions.html#vertical-shifts"><i class="fa fa-check"></i><b>2.4.2</b> Vertical Shifts</a></li>
+<li class="chapter" data-level="2.4.3" data-path="transformations-of-functions.html"><a href="transformations-of-functions.html#horizontal-shifts"><i class="fa fa-check"></i><b>2.4.3</b> Horizontal Shifts</a></li>
+<li class="chapter" data-level="2.4.4" data-path="transformations-of-functions.html"><a href="transformations-of-functions.html#reflections"><i class="fa fa-check"></i><b>2.4.4</b> Reflections</a></li>
+<li class="chapter" data-level="2.4.5" data-path="transformations-of-functions.html"><a href="transformations-of-functions.html#vertical-stretches-and-compressions"><i class="fa fa-check"></i><b>2.4.5</b> Vertical Stretches and Compressions</a></li>
+<li class="chapter" data-level="2.4.6" data-path="transformations-of-functions.html"><a href="transformations-of-functions.html#horizontal-stretches-and-compressions"><i class="fa fa-check"></i><b>2.4.6</b> Horizontal Stretches and Compressions</a></li>
+<li class="chapter" data-level="2.4.7" data-path="transformations-of-functions.html"><a href="transformations-of-functions.html#combining-transformations"><i class="fa fa-check"></i><b>2.4.7</b> Combining Transformations</a></li>
+<li class="chapter" data-level="2.4.8" data-path="transformations-of-functions.html"><a href="transformations-of-functions.html#even-and-odd-functions"><i class="fa fa-check"></i><b>2.4.8</b> Even and Odd Functions</a></li>
+<li class="chapter" data-level="2.4.9" data-path="transformations-of-functions.html"><a href="transformations-of-functions.html#desmos-graphing-activity-1"><i class="fa fa-check"></i><b>2.4.9</b> Desmos Graphing Activity</a></li>
+<li class="chapter" data-level="2.4.10" data-path="transformations-of-functions.html"><a href="transformations-of-functions.html#conceptual-takeaways-14"><i class="fa fa-check"></i><b>2.4.10</b> Conceptual Takeaways</a></li>
+<li class="chapter" data-level="2.4.11" data-path="transformations-of-functions.html"><a href="transformations-of-functions.html#skills-you-should-be-able-to-do-14"><i class="fa fa-check"></i><b>2.4.11</b> Skills You Should Be Able to Do</a></li>
+<li class="chapter" data-level="2.4.12" data-path="transformations-of-functions.html"><a href="transformations-of-functions.html#practice-problems-with-solutions-14"><i class="fa fa-check"></i><b>2.4.12</b> Practice Problems with Solutions</a></li>
+</ul></li>
+<li class="chapter" data-level="2.5" data-path="quadratic-functions-maxima-and-minima.html"><a href="quadratic-functions-maxima-and-minima.html"><i class="fa fa-check"></i><b>2.5</b> Quadratic Functions; Maxima and Minima</a>
+<ul>
+<li class="chapter" data-level="2.5.1" data-path="quadratic-functions-maxima-and-minima.html"><a href="quadratic-functions-maxima-and-minima.html#learning-objectives-15"><i class="fa fa-check"></i><b>2.5.1</b> Learning Objectives</a></li>
+<li class="chapter" data-level="2.5.2" data-path="quadratic-functions-maxima-and-minima.html"><a href="quadratic-functions-maxima-and-minima.html#forms-of-a-quadratic-function"><i class="fa fa-check"></i><b>2.5.2</b> Forms of a Quadratic Function</a></li>
+<li class="chapter" data-level="2.5.3" data-path="quadratic-functions-maxima-and-minima.html"><a href="quadratic-functions-maxima-and-minima.html#completing-the-square"><i class="fa fa-check"></i><b>2.5.3</b> Completing the Square</a></li>
+<li class="chapter" data-level="2.5.4" data-path="quadratic-functions-maxima-and-minima.html"><a href="quadratic-functions-maxima-and-minima.html#graphing-quadratic-functions"><i class="fa fa-check"></i><b>2.5.4</b> Graphing Quadratic Functions</a></li>
+<li class="chapter" data-level="2.5.5" data-path="quadratic-functions-maxima-and-minima.html"><a href="quadratic-functions-maxima-and-minima.html#maximum-and-minimum-values"><i class="fa fa-check"></i><b>2.5.5</b> Maximum and Minimum Values</a></li>
+<li class="chapter" data-level="2.5.6" data-path="quadratic-functions-maxima-and-minima.html"><a href="quadratic-functions-maxima-and-minima.html#investigating-quadratics-with-desmos"><i class="fa fa-check"></i><b>2.5.6</b> Investigating Quadratics with Desmos</a></li>
+<li class="chapter" data-level="2.5.7" data-path="quadratic-functions-maxima-and-minima.html"><a href="quadratic-functions-maxima-and-minima.html#conceptual-takeaways-15"><i class="fa fa-check"></i><b>2.5.7</b> Conceptual Takeaways</a></li>
+<li class="chapter" data-level="2.5.8" data-path="quadratic-functions-maxima-and-minima.html"><a href="quadratic-functions-maxima-and-minima.html#skills-you-should-be-able-to-do-15"><i class="fa fa-check"></i><b>2.5.8</b> Skills You Should Be Able to Do</a></li>
+<li class="chapter" data-level="2.5.9" data-path="quadratic-functions-maxima-and-minima.html"><a href="quadratic-functions-maxima-and-minima.html#practice-problems-with-solutions-15"><i class="fa fa-check"></i><b>2.5.9</b> Practice Problems with Solutions</a></li>
+</ul></li>
+<li class="chapter" data-level="2.6" data-path="modeling-with-functions.html"><a href="modeling-with-functions.html"><i class="fa fa-check"></i><b>2.6</b> Modeling with Functions</a>
+<ul>
+<li class="chapter" data-level="2.6.1" data-path="modeling-with-functions.html"><a href="modeling-with-functions.html#learning-objectives-16"><i class="fa fa-check"></i><b>2.6.1</b> Learning Objectives</a></li>
+<li class="chapter" data-level="2.6.2" data-path="modeling-with-functions.html"><a href="modeling-with-functions.html#building-a-function-model"><i class="fa fa-check"></i><b>2.6.2</b> Building a Function Model</a></li>
+<li class="chapter" data-level="2.6.3" data-path="modeling-with-functions.html"><a href="modeling-with-functions.html#geometry-models-1"><i class="fa fa-check"></i><b>2.6.3</b> Geometry Models</a></li>
+<li class="chapter" data-level="2.6.4" data-path="modeling-with-functions.html"><a href="modeling-with-functions.html#revenue-cost-and-profit"><i class="fa fa-check"></i><b>2.6.4</b> Revenue, Cost, and Profit</a></li>
+<li class="chapter" data-level="2.6.5" data-path="modeling-with-functions.html"><a href="modeling-with-functions.html#optimizing-a-model"><i class="fa fa-check"></i><b>2.6.5</b> Optimizing a Model</a></li>
+<li class="chapter" data-level="2.6.6" data-path="modeling-with-functions.html"><a href="modeling-with-functions.html#graphical-and-numerical-optimization"><i class="fa fa-check"></i><b>2.6.6</b> Graphical and Numerical Optimization</a></li>
+<li class="chapter" data-level="2.6.7" data-path="modeling-with-functions.html"><a href="modeling-with-functions.html#conceptual-takeaways-16"><i class="fa fa-check"></i><b>2.6.7</b> Conceptual Takeaways</a></li>
+<li class="chapter" data-level="2.6.8" data-path="modeling-with-functions.html"><a href="modeling-with-functions.html#skills-you-should-be-able-to-do-16"><i class="fa fa-check"></i><b>2.6.8</b> Skills You Should Be Able to Do</a></li>
+<li class="chapter" data-level="2.6.9" data-path="modeling-with-functions.html"><a href="modeling-with-functions.html#practice-problems-with-solutions-16"><i class="fa fa-check"></i><b>2.6.9</b> Practice Problems with Solutions</a></li>
+</ul></li>
+<li class="chapter" data-level="2.7" data-path="combining-functions.html"><a href="combining-functions.html"><i class="fa fa-check"></i><b>2.7</b> Combining Functions</a>
+<ul>
+<li class="chapter" data-level="2.7.1" data-path="combining-functions.html"><a href="combining-functions.html#learning-objectives-17"><i class="fa fa-check"></i><b>2.7.1</b> Learning Objectives</a></li>
+<li class="chapter" data-level="2.7.2" data-path="combining-functions.html"><a href="combining-functions.html#arithmetic-combinations-of-functions"><i class="fa fa-check"></i><b>2.7.2</b> Arithmetic Combinations of Functions</a></li>
+<li class="chapter" data-level="2.7.3" data-path="combining-functions.html"><a href="combining-functions.html#domains-of-combined-functions"><i class="fa fa-check"></i><b>2.7.3</b> Domains of Combined Functions</a></li>
+<li class="chapter" data-level="2.7.4" data-path="combining-functions.html"><a href="combining-functions.html#composition-of-functions"><i class="fa fa-check"></i><b>2.7.4</b> Composition of Functions</a></li>
+<li class="chapter" data-level="2.7.5" data-path="combining-functions.html"><a href="combining-functions.html#domains-of-composite-functions"><i class="fa fa-check"></i><b>2.7.5</b> Domains of Composite Functions</a></li>
+<li class="chapter" data-level="2.7.6" data-path="combining-functions.html"><a href="combining-functions.html#decomposing-a-composition"><i class="fa fa-check"></i><b>2.7.6</b> Decomposing a Composition</a></li>
+<li class="chapter" data-level="2.7.7" data-path="combining-functions.html"><a href="combining-functions.html#applications-and-iteration"><i class="fa fa-check"></i><b>2.7.7</b> Applications and Iteration</a></li>
+<li class="chapter" data-level="2.7.8" data-path="combining-functions.html"><a href="combining-functions.html#conceptual-takeaways-17"><i class="fa fa-check"></i><b>2.7.8</b> Conceptual Takeaways</a></li>
+<li class="chapter" data-level="2.7.9" data-path="combining-functions.html"><a href="combining-functions.html#skills-you-should-be-able-to-do-17"><i class="fa fa-check"></i><b>2.7.9</b> Skills You Should Be Able to Do</a></li>
+<li class="chapter" data-level="2.7.10" data-path="combining-functions.html"><a href="combining-functions.html#practice-problems-with-solutions-17"><i class="fa fa-check"></i><b>2.7.10</b> Practice Problems with Solutions</a></li>
+</ul></li>
+<li class="chapter" data-level="2.8" data-path="one-to-one-functions-and-their-inverses.html"><a href="one-to-one-functions-and-their-inverses.html"><i class="fa fa-check"></i><b>2.8</b> One-to-One Functions and Their Inverses</a>
+<ul>
+<li class="chapter" data-level="2.8.1" data-path="one-to-one-functions-and-their-inverses.html"><a href="one-to-one-functions-and-their-inverses.html#learning-objectives-18"><i class="fa fa-check"></i><b>2.8.1</b> Learning Objectives</a></li>
+<li class="chapter" data-level="2.8.2" data-path="one-to-one-functions-and-their-inverses.html"><a href="one-to-one-functions-and-their-inverses.html#one-to-one-functions"><i class="fa fa-check"></i><b>2.8.2</b> One-to-One Functions</a></li>
+<li class="chapter" data-level="2.8.3" data-path="one-to-one-functions-and-their-inverses.html"><a href="one-to-one-functions-and-their-inverses.html#the-horizontal-line-test"><i class="fa fa-check"></i><b>2.8.3</b> The Horizontal Line Test</a></li>
+<li class="chapter" data-level="2.8.4" data-path="one-to-one-functions-and-their-inverses.html"><a href="one-to-one-functions-and-their-inverses.html#restricting-a-domain"><i class="fa fa-check"></i><b>2.8.4</b> Restricting a Domain</a></li>
+<li class="chapter" data-level="2.8.5" data-path="one-to-one-functions-and-their-inverses.html"><a href="one-to-one-functions-and-their-inverses.html#inverse-functions"><i class="fa fa-check"></i><b>2.8.5</b> Inverse Functions</a></li>
+<li class="chapter" data-level="2.8.6" data-path="one-to-one-functions-and-their-inverses.html"><a href="one-to-one-functions-and-their-inverses.html#finding-an-inverse-algebraically"><i class="fa fa-check"></i><b>2.8.6</b> Finding an Inverse Algebraically</a></li>
+<li class="chapter" data-level="2.8.7" data-path="one-to-one-functions-and-their-inverses.html"><a href="one-to-one-functions-and-their-inverses.html#verifying-inverses"><i class="fa fa-check"></i><b>2.8.7</b> Verifying Inverses</a></li>
+<li class="chapter" data-level="2.8.8" data-path="one-to-one-functions-and-their-inverses.html"><a href="one-to-one-functions-and-their-inverses.html#graphs-domains-and-ranges-of-inverses"><i class="fa fa-check"></i><b>2.8.8</b> Graphs, Domains, and Ranges of Inverses</a></li>
+<li class="chapter" data-level="2.8.9" data-path="one-to-one-functions-and-their-inverses.html"><a href="one-to-one-functions-and-their-inverses.html#conceptual-takeaways-18"><i class="fa fa-check"></i><b>2.8.9</b> Conceptual Takeaways</a></li>
+<li class="chapter" data-level="2.8.10" data-path="one-to-one-functions-and-their-inverses.html"><a href="one-to-one-functions-and-their-inverses.html#skills-you-should-be-able-to-do-18"><i class="fa fa-check"></i><b>2.8.10</b> Skills You Should Be Able to Do</a></li>
+<li class="chapter" data-level="2.8.11" data-path="one-to-one-functions-and-their-inverses.html"><a href="one-to-one-functions-and-their-inverses.html#practice-problems-with-solutions-18"><i class="fa fa-check"></i><b>2.8.11</b> Practice Problems with Solutions</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="polynomial-and-rational-functions.html"><a href="polynomial-and-rational-functions.html"><i class="fa fa-check"></i><b>3</b> Polynomial and Rational Functions</a>
+<ul>
+<li class="chapter" data-level="3.1" data-path="polynomial-functions-and-their-graphs.html"><a href="polynomial-functions-and-their-graphs.html"><i class="fa fa-check"></i><b>3.1</b> Polynomial Functions and Their Graphs</a>
+<ul>
+<li class="chapter" data-level="3.1.1" data-path="polynomial-functions-and-their-graphs.html"><a href="polynomial-functions-and-their-graphs.html#learning-objectives-19"><i class="fa fa-check"></i><b>3.1.1</b> Learning Objectives</a></li>
+<li class="chapter" data-level="3.1.2" data-path="polynomial-functions-and-their-graphs.html"><a href="polynomial-functions-and-their-graphs.html#polynomial-functions-and-basic-shapes"><i class="fa fa-check"></i><b>3.1.2</b> Polynomial Functions and Basic Shapes</a></li>
+<li class="chapter" data-level="3.1.3" data-path="polynomial-functions-and-their-graphs.html"><a href="polynomial-functions-and-their-graphs.html#end-behaviour"><i class="fa fa-check"></i><b>3.1.3</b> End Behaviour</a></li>
+<li class="chapter" data-level="3.1.4" data-path="polynomial-functions-and-their-graphs.html"><a href="polynomial-functions-and-their-graphs.html#zeros-intercepts-and-multiplicity"><i class="fa fa-check"></i><b>3.1.4</b> Zeros, Intercepts, and Multiplicity</a></li>
+<li class="chapter" data-level="3.1.5" data-path="polynomial-functions-and-their-graphs.html"><a href="polynomial-functions-and-their-graphs.html#sketching-polynomial-graphs"><i class="fa fa-check"></i><b>3.1.5</b> Sketching Polynomial Graphs</a></li>
+<li class="chapter" data-level="3.1.6" data-path="polynomial-functions-and-their-graphs.html"><a href="polynomial-functions-and-their-graphs.html#turning-points-and-desmos"><i class="fa fa-check"></i><b>3.1.6</b> Turning Points and Desmos</a></li>
+<li class="chapter" data-level="3.1.7" data-path="polynomial-functions-and-their-graphs.html"><a href="polynomial-functions-and-their-graphs.html#conceptual-takeaways-19"><i class="fa fa-check"></i><b>3.1.7</b> Conceptual Takeaways</a></li>
+<li class="chapter" data-level="3.1.8" data-path="polynomial-functions-and-their-graphs.html"><a href="polynomial-functions-and-their-graphs.html#skills-you-should-be-able-to-do-19"><i class="fa fa-check"></i><b>3.1.8</b> Skills You Should Be Able to Do</a></li>
+<li class="chapter" data-level="3.1.9" data-path="polynomial-functions-and-their-graphs.html"><a href="polynomial-functions-and-their-graphs.html#practice-problems-with-solutions-19"><i class="fa fa-check"></i><b>3.1.9</b> Practice Problems with Solutions</a></li>
+</ul></li>
+<li class="chapter" data-level="3.2" data-path="dividing-polynomials.html"><a href="dividing-polynomials.html"><i class="fa fa-check"></i><b>3.2</b> Dividing Polynomials</a>
+<ul>
+<li class="chapter" data-level="3.2.1" data-path="dividing-polynomials.html"><a href="dividing-polynomials.html#learning-objectives-20"><i class="fa fa-check"></i><b>3.2.1</b> Learning Objectives</a></li>
+<li class="chapter" data-level="3.2.2" data-path="dividing-polynomials.html"><a href="dividing-polynomials.html#polynomial-long-division"><i class="fa fa-check"></i><b>3.2.2</b> Polynomial Long Division</a></li>
+<li class="chapter" data-level="3.2.3" data-path="dividing-polynomials.html"><a href="dividing-polynomials.html#the-division-algorithm"><i class="fa fa-check"></i><b>3.2.3</b> The Division Algorithm</a></li>
+<li class="chapter" data-level="3.2.4" data-path="dividing-polynomials.html"><a href="dividing-polynomials.html#synthetic-division"><i class="fa fa-check"></i><b>3.2.4</b> Synthetic Division</a></li>
+<li class="chapter" data-level="3.2.5" data-path="dividing-polynomials.html"><a href="dividing-polynomials.html#the-remainder-and-factor-theorems"><i class="fa fa-check"></i><b>3.2.5</b> The Remainder and Factor Theorems</a></li>
+<li class="chapter" data-level="3.2.6" data-path="dividing-polynomials.html"><a href="dividing-polynomials.html#factoring-and-constructing-polynomials"><i class="fa fa-check"></i><b>3.2.6</b> Factoring and Constructing Polynomials</a></li>
+<li class="chapter" data-level="3.2.7" data-path="dividing-polynomials.html"><a href="dividing-polynomials.html#conceptual-takeaways-20"><i class="fa fa-check"></i><b>3.2.7</b> Conceptual Takeaways</a></li>
+<li class="chapter" data-level="3.2.8" data-path="dividing-polynomials.html"><a href="dividing-polynomials.html#skills-you-should-be-able-to-do-20"><i class="fa fa-check"></i><b>3.2.8</b> Skills You Should Be Able to Do</a></li>
+<li class="chapter" data-level="3.2.9" data-path="dividing-polynomials.html"><a href="dividing-polynomials.html#practice-problems-with-solutions-20"><i class="fa fa-check"></i><b>3.2.9</b> Practice Problems with Solutions</a></li>
+</ul></li>
+<li class="chapter" data-level="3.3" data-path="real-zeros-of-polynomials.html"><a href="real-zeros-of-polynomials.html"><i class="fa fa-check"></i><b>3.3</b> Real Zeros of Polynomials</a>
+<ul>
+<li class="chapter" data-level="3.3.1" data-path="real-zeros-of-polynomials.html"><a href="real-zeros-of-polynomials.html#learning-objectives-21"><i class="fa fa-check"></i><b>3.3.1</b> Learning Objectives</a></li>
+<li class="chapter" data-level="3.3.2" data-path="real-zeros-of-polynomials.html"><a href="real-zeros-of-polynomials.html#the-rational-zeros-theorem"><i class="fa fa-check"></i><b>3.3.2</b> The Rational Zeros Theorem</a></li>
+<li class="chapter" data-level="3.3.3" data-path="real-zeros-of-polynomials.html"><a href="real-zeros-of-polynomials.html#finding-rational-zeros"><i class="fa fa-check"></i><b>3.3.3</b> Finding Rational Zeros</a></li>
+<li class="chapter" data-level="3.3.4" data-path="real-zeros-of-polynomials.html"><a href="real-zeros-of-polynomials.html#descartes-rule-of-signs"><i class="fa fa-check"></i><b>3.3.4</b> Descartes’ Rule of Signs</a></li>
+<li class="chapter" data-level="3.3.5" data-path="real-zeros-of-polynomials.html"><a href="real-zeros-of-polynomials.html#upper-and-lower-bounds"><i class="fa fa-check"></i><b>3.3.5</b> Upper and Lower Bounds</a></li>
+<li class="chapter" data-level="3.3.6" data-path="real-zeros-of-polynomials.html"><a href="real-zeros-of-polynomials.html#graphical-and-numerical-zeros"><i class="fa fa-check"></i><b>3.3.6</b> Graphical and Numerical Zeros</a></li>
+<li class="chapter" data-level="3.3.7" data-path="real-zeros-of-polynomials.html"><a href="real-zeros-of-polynomials.html#conceptual-takeaways-21"><i class="fa fa-check"></i><b>3.3.7</b> Conceptual Takeaways</a></li>
+<li class="chapter" data-level="3.3.8" data-path="real-zeros-of-polynomials.html"><a href="real-zeros-of-polynomials.html#skills-you-should-be-able-to-do-21"><i class="fa fa-check"></i><b>3.3.8</b> Skills You Should Be Able to Do</a></li>
+<li class="chapter" data-level="3.3.9" data-path="real-zeros-of-polynomials.html"><a href="real-zeros-of-polynomials.html#practice-problems-with-solutions-21"><i class="fa fa-check"></i><b>3.3.9</b> Practice Problems with Solutions</a></li>
+</ul></li>
+<li class="chapter" data-level="3.4" data-path="complex-numbers.html"><a href="complex-numbers.html"><i class="fa fa-check"></i><b>3.4</b> Complex Numbers</a>
+<ul>
+<li class="chapter" data-level="3.4.1" data-path="complex-numbers.html"><a href="complex-numbers.html#learning-objectives-22"><i class="fa fa-check"></i><b>3.4.1</b> Learning Objectives</a></li>
+<li class="chapter" data-level="3.4.2" data-path="complex-numbers.html"><a href="complex-numbers.html#the-imaginary-unit-and-complex-numbers"><i class="fa fa-check"></i><b>3.4.2</b> The Imaginary Unit and Complex Numbers</a></li>
+<li class="chapter" data-level="3.4.3" data-path="complex-numbers.html"><a href="complex-numbers.html#powers-of-i"><i class="fa fa-check"></i><b>3.4.3</b> Powers of <span class="math inline">\(i\)</span></a></li>
+<li class="chapter" data-level="3.4.4" data-path="complex-numbers.html"><a href="complex-numbers.html#adding-subtracting-and-multiplying"><i class="fa fa-check"></i><b>3.4.4</b> Adding, Subtracting, and Multiplying</a></li>
+<li class="chapter" data-level="3.4.5" data-path="complex-numbers.html"><a href="complex-numbers.html#conjugates-and-division"><i class="fa fa-check"></i><b>3.4.5</b> Conjugates and Division</a></li>
+<li class="chapter" data-level="3.4.6" data-path="complex-numbers.html"><a href="complex-numbers.html#square-roots-of-negative-numbers"><i class="fa fa-check"></i><b>3.4.6</b> Square Roots of Negative Numbers</a></li>
+<li class="chapter" data-level="3.4.7" data-path="complex-numbers.html"><a href="complex-numbers.html#quadratic-equations-with-complex-solutions"><i class="fa fa-check"></i><b>3.4.7</b> Quadratic Equations with Complex Solutions</a></li>
+<li class="chapter" data-level="3.4.8" data-path="complex-numbers.html"><a href="complex-numbers.html#conceptual-takeaways-22"><i class="fa fa-check"></i><b>3.4.8</b> Conceptual Takeaways</a></li>
+<li class="chapter" data-level="3.4.9" data-path="complex-numbers.html"><a href="complex-numbers.html#skills-you-should-be-able-to-do-22"><i class="fa fa-check"></i><b>3.4.9</b> Skills You Should Be Able to Do</a></li>
+<li class="chapter" data-level="3.4.10" data-path="complex-numbers.html"><a href="complex-numbers.html#practice-problems-with-solutions-22"><i class="fa fa-check"></i><b>3.4.10</b> Practice Problems with Solutions</a></li>
+</ul></li>
+<li class="chapter" data-level="3.5" data-path="complex-zeros-and-the-fundamental-theorem-of-algebra.html"><a href="complex-zeros-and-the-fundamental-theorem-of-algebra.html"><i class="fa fa-check"></i><b>3.5</b> Complex Zeros and the Fundamental Theorem of Algebra</a>
+<ul>
+<li class="chapter" data-level="3.5.1" data-path="complex-zeros-and-the-fundamental-theorem-of-algebra.html"><a href="complex-zeros-and-the-fundamental-theorem-of-algebra.html#learning-objectives-23"><i class="fa fa-check"></i><b>3.5.1</b> Learning Objectives</a></li>
+<li class="chapter" data-level="3.5.2" data-path="complex-zeros-and-the-fundamental-theorem-of-algebra.html"><a href="complex-zeros-and-the-fundamental-theorem-of-algebra.html#the-fundamental-theorem-of-algebra"><i class="fa fa-check"></i><b>3.5.2</b> The Fundamental Theorem of Algebra</a></li>
+<li class="chapter" data-level="3.5.3" data-path="complex-zeros-and-the-fundamental-theorem-of-algebra.html"><a href="complex-zeros-and-the-fundamental-theorem-of-algebra.html#multiplicity-and-complete-factorization"><i class="fa fa-check"></i><b>3.5.3</b> Multiplicity and Complete Factorization</a></li>
+<li class="chapter" data-level="3.5.4" data-path="complex-zeros-and-the-fundamental-theorem-of-algebra.html"><a href="complex-zeros-and-the-fundamental-theorem-of-algebra.html#the-conjugate-zeros-theorem"><i class="fa fa-check"></i><b>3.5.4</b> The Conjugate Zeros Theorem</a></li>
+<li class="chapter" data-level="3.5.5" data-path="complex-zeros-and-the-fundamental-theorem-of-algebra.html"><a href="complex-zeros-and-the-fundamental-theorem-of-algebra.html#finding-all-zeros"><i class="fa fa-check"></i><b>3.5.5</b> Finding All Zeros</a></li>
+<li class="chapter" data-level="3.5.6" data-path="complex-zeros-and-the-fundamental-theorem-of-algebra.html"><a href="complex-zeros-and-the-fundamental-theorem-of-algebra.html#constructing-polynomials-from-zeros"><i class="fa fa-check"></i><b>3.5.6</b> Constructing Polynomials from Zeros</a></li>
+<li class="chapter" data-level="3.5.7" data-path="complex-zeros-and-the-fundamental-theorem-of-algebra.html"><a href="complex-zeros-and-the-fundamental-theorem-of-algebra.html#real-factorization"><i class="fa fa-check"></i><b>3.5.7</b> Real Factorization</a></li>
+<li class="chapter" data-level="3.5.8" data-path="complex-zeros-and-the-fundamental-theorem-of-algebra.html"><a href="complex-zeros-and-the-fundamental-theorem-of-algebra.html#conceptual-takeaways-23"><i class="fa fa-check"></i><b>3.5.8</b> Conceptual Takeaways</a></li>
+<li class="chapter" data-level="3.5.9" data-path="complex-zeros-and-the-fundamental-theorem-of-algebra.html"><a href="complex-zeros-and-the-fundamental-theorem-of-algebra.html#skills-you-should-be-able-to-do-23"><i class="fa fa-check"></i><b>3.5.9</b> Skills You Should Be Able to Do</a></li>
+<li class="chapter" data-level="3.5.10" data-path="complex-zeros-and-the-fundamental-theorem-of-algebra.html"><a href="complex-zeros-and-the-fundamental-theorem-of-algebra.html#practice-problems-with-solutions-23"><i class="fa fa-check"></i><b>3.5.10</b> Practice Problems with Solutions</a></li>
+</ul></li>
+<li class="chapter" data-level="3.6" data-path="rational-functions.html"><a href="rational-functions.html"><i class="fa fa-check"></i><b>3.6</b> Rational Functions</a>
+<ul>
+<li class="chapter" data-level="3.6.1" data-path="rational-functions.html"><a href="rational-functions.html#learning-objectives-24"><i class="fa fa-check"></i><b>3.6.1</b> Learning Objectives</a></li>
+<li class="chapter" data-level="3.6.2" data-path="rational-functions.html"><a href="rational-functions.html#rational-functions-and-their-domains"><i class="fa fa-check"></i><b>3.6.2</b> Rational Functions and Their Domains</a></li>
+<li class="chapter" data-level="3.6.3" data-path="rational-functions.html"><a href="rational-functions.html#reciprocal-transformations"><i class="fa fa-check"></i><b>3.6.3</b> Reciprocal Transformations</a></li>
+<li class="chapter" data-level="3.6.4" data-path="rational-functions.html"><a href="rational-functions.html#vertical-asymptotes"><i class="fa fa-check"></i><b>3.6.4</b> Vertical Asymptotes</a></li>
+<li class="chapter" data-level="3.6.5" data-path="rational-functions.html"><a href="rational-functions.html#horizontal-asymptotes"><i class="fa fa-check"></i><b>3.6.5</b> Horizontal Asymptotes</a></li>
+<li class="chapter" data-level="3.6.6" data-path="rational-functions.html"><a href="rational-functions.html#slant-asymptotes-and-end-behaviour"><i class="fa fa-check"></i><b>3.6.6</b> Slant Asymptotes and End Behaviour</a></li>
+<li class="chapter" data-level="3.6.7" data-path="rational-functions.html"><a href="rational-functions.html#graphing-rational-functions"><i class="fa fa-check"></i><b>3.6.7</b> Graphing Rational Functions</a></li>
+<li class="chapter" data-level="3.6.8" data-path="rational-functions.html"><a href="rational-functions.html#rational-models"><i class="fa fa-check"></i><b>3.6.8</b> Rational Models</a></li>
+<li class="chapter" data-level="3.6.9" data-path="rational-functions.html"><a href="rational-functions.html#conceptual-takeaways-24"><i class="fa fa-check"></i><b>3.6.9</b> Conceptual Takeaways</a></li>
+<li class="chapter" data-level="3.6.10" data-path="rational-functions.html"><a href="rational-functions.html#skills-you-should-be-able-to-do-24"><i class="fa fa-check"></i><b>3.6.10</b> Skills You Should Be Able to Do</a></li>
+<li class="chapter" data-level="3.6.11" data-path="rational-functions.html"><a href="rational-functions.html#practice-problems-with-solutions-24"><i class="fa fa-check"></i><b>3.6.11</b> Practice Problems with Solutions</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="exponential-and-logarithmic-functions.html"><a href="exponential-and-logarithmic-functions.html"><i class="fa fa-check"></i><b>4</b> Exponential and Logarithmic Functions</a>
+<ul>
+<li class="chapter" data-level="4.1" data-path="exponential-functions.html"><a href="exponential-functions.html"><i class="fa fa-check"></i><b>4.1</b> Exponential Functions</a>
+<ul>
+<li class="chapter" data-level="4.1.1" data-path="exponential-functions.html"><a href="exponential-functions.html#learning-objectives-25"><i class="fa fa-check"></i><b>4.1.1</b> Learning Objectives</a></li>
+<li class="chapter" data-level="4.1.2" data-path="exponential-functions.html"><a href="exponential-functions.html#exponential-functions-and-their-graphs"><i class="fa fa-check"></i><b>4.1.2</b> Exponential Functions and Their Graphs</a></li>
+<li class="chapter" data-level="4.1.3" data-path="exponential-functions.html"><a href="exponential-functions.html#transformations-of-exponential-functions"><i class="fa fa-check"></i><b>4.1.3</b> Transformations of Exponential Functions</a></li>
+<li class="chapter" data-level="4.1.4" data-path="exponential-functions.html"><a href="exponential-functions.html#exponential-and-power-functions"><i class="fa fa-check"></i><b>4.1.4</b> Exponential and Power Functions</a></li>
+<li class="chapter" data-level="4.1.5" data-path="exponential-functions.html"><a href="exponential-functions.html#the-natural-exponential-function"><i class="fa fa-check"></i><b>4.1.5</b> The Natural Exponential Function</a></li>
+<li class="chapter" data-level="4.1.6" data-path="exponential-functions.html"><a href="exponential-functions.html#compound-interest"><i class="fa fa-check"></i><b>4.1.6</b> Compound Interest</a></li>
+<li class="chapter" data-level="4.1.7" data-path="exponential-functions.html"><a href="exponential-functions.html#conceptual-takeaways-25"><i class="fa fa-check"></i><b>4.1.7</b> Conceptual Takeaways</a></li>
+<li class="chapter" data-level="4.1.8" data-path="exponential-functions.html"><a href="exponential-functions.html#skills-you-should-be-able-to-do-25"><i class="fa fa-check"></i><b>4.1.8</b> Skills You Should Be Able to Do</a></li>
+<li class="chapter" data-level="4.1.9" data-path="exponential-functions.html"><a href="exponential-functions.html#practice-problems-with-solutions-25"><i class="fa fa-check"></i><b>4.1.9</b> Practice Problems with Solutions</a></li>
+</ul></li>
+<li class="chapter" data-level="4.2" data-path="logarithmic-functions.html"><a href="logarithmic-functions.html"><i class="fa fa-check"></i><b>4.2</b> Logarithmic Functions</a>
+<ul>
+<li class="chapter" data-level="4.2.1" data-path="logarithmic-functions.html"><a href="logarithmic-functions.html#learning-objectives-26"><i class="fa fa-check"></i><b>4.2.1</b> Learning Objectives</a></li>
+<li class="chapter" data-level="4.2.2" data-path="logarithmic-functions.html"><a href="logarithmic-functions.html#logarithmic-and-exponential-forms"><i class="fa fa-check"></i><b>4.2.2</b> Logarithmic and Exponential Forms</a></li>
+<li class="chapter" data-level="4.2.3" data-path="logarithmic-functions.html"><a href="logarithmic-functions.html#evaluating-logarithms"><i class="fa fa-check"></i><b>4.2.3</b> Evaluating Logarithms</a></li>
+<li class="chapter" data-level="4.2.4" data-path="logarithmic-functions.html"><a href="logarithmic-functions.html#graphs-and-transformations"><i class="fa fa-check"></i><b>4.2.4</b> Graphs and Transformations</a></li>
+<li class="chapter" data-level="4.2.5" data-path="logarithmic-functions.html"><a href="logarithmic-functions.html#common-and-natural-logarithms"><i class="fa fa-check"></i><b>4.2.5</b> Common and Natural Logarithms</a></li>
+<li class="chapter" data-level="4.2.6" data-path="logarithmic-functions.html"><a href="logarithmic-functions.html#domains-of-logarithmic-expressions"><i class="fa fa-check"></i><b>4.2.6</b> Domains of Logarithmic Expressions</a></li>
+<li class="chapter" data-level="4.2.7" data-path="logarithmic-functions.html"><a href="logarithmic-functions.html#conceptual-takeaways-26"><i class="fa fa-check"></i><b>4.2.7</b> Conceptual Takeaways</a></li>
+<li class="chapter" data-level="4.2.8" data-path="logarithmic-functions.html"><a href="logarithmic-functions.html#skills-you-should-be-able-to-do-26"><i class="fa fa-check"></i><b>4.2.8</b> Skills You Should Be Able to Do</a></li>
+<li class="chapter" data-level="4.2.9" data-path="logarithmic-functions.html"><a href="logarithmic-functions.html#practice-problems-with-solutions-26"><i class="fa fa-check"></i><b>4.2.9</b> Practice Problems with Solutions</a></li>
+</ul></li>
+<li class="chapter" data-level="4.3" data-path="laws-of-logarithms.html"><a href="laws-of-logarithms.html"><i class="fa fa-check"></i><b>4.3</b> Laws of Logarithms</a>
+<ul>
+<li class="chapter" data-level="4.3.1" data-path="laws-of-logarithms.html"><a href="laws-of-logarithms.html#learning-objectives-27"><i class="fa fa-check"></i><b>4.3.1</b> Learning Objectives</a></li>
+<li class="chapter" data-level="4.3.2" data-path="laws-of-logarithms.html"><a href="laws-of-logarithms.html#product-quotient-and-power-laws"><i class="fa fa-check"></i><b>4.3.2</b> Product, Quotient, and Power Laws</a></li>
+<li class="chapter" data-level="4.3.3" data-path="laws-of-logarithms.html"><a href="laws-of-logarithms.html#expanding-logarithmic-expressions"><i class="fa fa-check"></i><b>4.3.3</b> Expanding Logarithmic Expressions</a></li>
+<li class="chapter" data-level="4.3.4" data-path="laws-of-logarithms.html"><a href="laws-of-logarithms.html#combining-logarithmic-expressions"><i class="fa fa-check"></i><b>4.3.4</b> Combining Logarithmic Expressions</a></li>
+<li class="chapter" data-level="4.3.5" data-path="laws-of-logarithms.html"><a href="laws-of-logarithms.html#change-of-base"><i class="fa fa-check"></i><b>4.3.5</b> Change of Base</a></li>
+<li class="chapter" data-level="4.3.6" data-path="laws-of-logarithms.html"><a href="laws-of-logarithms.html#conceptual-takeaways-27"><i class="fa fa-check"></i><b>4.3.6</b> Conceptual Takeaways</a></li>
+<li class="chapter" data-level="4.3.7" data-path="laws-of-logarithms.html"><a href="laws-of-logarithms.html#skills-you-should-be-able-to-do-27"><i class="fa fa-check"></i><b>4.3.7</b> Skills You Should Be Able to Do</a></li>
+<li class="chapter" data-level="4.3.8" data-path="laws-of-logarithms.html"><a href="laws-of-logarithms.html#practice-problems-with-solutions-27"><i class="fa fa-check"></i><b>4.3.8</b> Practice Problems with Solutions</a></li>
+</ul></li>
+<li class="chapter" data-level="4.4" data-path="exponential-and-logarithmic-equations.html"><a href="exponential-and-logarithmic-equations.html"><i class="fa fa-check"></i><b>4.4</b> Exponential and Logarithmic Equations</a>
+<ul>
+<li class="chapter" data-level="4.4.1" data-path="exponential-and-logarithmic-equations.html"><a href="exponential-and-logarithmic-equations.html#learning-objectives-28"><i class="fa fa-check"></i><b>4.4.1</b> Learning Objectives</a></li>
+<li class="chapter" data-level="4.4.2" data-path="exponential-and-logarithmic-equations.html"><a href="exponential-and-logarithmic-equations.html#exponential-equations-with-a-common-base"><i class="fa fa-check"></i><b>4.4.2</b> Exponential Equations with a Common Base</a></li>
+<li class="chapter" data-level="4.4.3" data-path="exponential-and-logarithmic-equations.html"><a href="exponential-and-logarithmic-equations.html#solving-exponential-equations-with-logarithms"><i class="fa fa-check"></i><b>4.4.3</b> Solving Exponential Equations with Logarithms</a></li>
+<li class="chapter" data-level="4.4.4" data-path="exponential-and-logarithmic-equations.html"><a href="exponential-and-logarithmic-equations.html#equations-of-quadratic-type"><i class="fa fa-check"></i><b>4.4.4</b> Equations of Quadratic Type</a></li>
+<li class="chapter" data-level="4.4.5" data-path="exponential-and-logarithmic-equations.html"><a href="exponential-and-logarithmic-equations.html#logarithmic-equations"><i class="fa fa-check"></i><b>4.4.5</b> Logarithmic Equations</a></li>
+<li class="chapter" data-level="4.4.6" data-path="exponential-and-logarithmic-equations.html"><a href="exponential-and-logarithmic-equations.html#graphical-solutions"><i class="fa fa-check"></i><b>4.4.6</b> Graphical Solutions</a></li>
+<li class="chapter" data-level="4.4.7" data-path="exponential-and-logarithmic-equations.html"><a href="exponential-and-logarithmic-equations.html#conceptual-takeaways-28"><i class="fa fa-check"></i><b>4.4.7</b> Conceptual Takeaways</a></li>
+<li class="chapter" data-level="4.4.8" data-path="exponential-and-logarithmic-equations.html"><a href="exponential-and-logarithmic-equations.html#skills-you-should-be-able-to-do-28"><i class="fa fa-check"></i><b>4.4.8</b> Skills You Should Be Able to Do</a></li>
+<li class="chapter" data-level="4.4.9" data-path="exponential-and-logarithmic-equations.html"><a href="exponential-and-logarithmic-equations.html#practice-problems-with-solutions-28"><i class="fa fa-check"></i><b>4.4.9</b> Practice Problems with Solutions</a></li>
+</ul></li>
+<li class="chapter" data-level="4.5" data-path="modeling-with-exponential-and-logarithmic-functions.html"><a href="modeling-with-exponential-and-logarithmic-functions.html"><i class="fa fa-check"></i><b>4.5</b> Modeling with Exponential and Logarithmic Functions</a>
+<ul>
+<li class="chapter" data-level="4.5.1" data-path="modeling-with-exponential-and-logarithmic-functions.html"><a href="modeling-with-exponential-and-logarithmic-functions.html#learning-objectives-29"><i class="fa fa-check"></i><b>4.5.1</b> Learning Objectives</a></li>
+<li class="chapter" data-level="4.5.2" data-path="modeling-with-exponential-and-logarithmic-functions.html"><a href="modeling-with-exponential-and-logarithmic-functions.html#exponential-growth-and-decay"><i class="fa fa-check"></i><b>4.5.2</b> Exponential Growth and Decay</a></li>
+<li class="chapter" data-level="4.5.3" data-path="modeling-with-exponential-and-logarithmic-functions.html"><a href="modeling-with-exponential-and-logarithmic-functions.html#doubling-time-and-half-life"><i class="fa fa-check"></i><b>4.5.3</b> Doubling Time and Half-Life</a></li>
+<li class="chapter" data-level="4.5.4" data-path="modeling-with-exponential-and-logarithmic-functions.html"><a href="modeling-with-exponential-and-logarithmic-functions.html#newtons-law-of-cooling"><i class="fa fa-check"></i><b>4.5.4</b> Newton’s Law of Cooling</a></li>
+<li class="chapter" data-level="4.5.5" data-path="modeling-with-exponential-and-logarithmic-functions.html"><a href="modeling-with-exponential-and-logarithmic-functions.html#logistic-growth"><i class="fa fa-check"></i><b>4.5.5</b> Logistic Growth</a></li>
+<li class="chapter" data-level="4.5.6" data-path="modeling-with-exponential-and-logarithmic-functions.html"><a href="modeling-with-exponential-and-logarithmic-functions.html#logarithmic-scales"><i class="fa fa-check"></i><b>4.5.6</b> Logarithmic Scales</a></li>
+<li class="chapter" data-level="4.5.7" data-path="modeling-with-exponential-and-logarithmic-functions.html"><a href="modeling-with-exponential-and-logarithmic-functions.html#conceptual-takeaways-29"><i class="fa fa-check"></i><b>4.5.7</b> Conceptual Takeaways</a></li>
+<li class="chapter" data-level="4.5.8" data-path="modeling-with-exponential-and-logarithmic-functions.html"><a href="modeling-with-exponential-and-logarithmic-functions.html#skills-you-should-be-able-to-do-29"><i class="fa fa-check"></i><b>4.5.8</b> Skills You Should Be Able to Do</a></li>
+<li class="chapter" data-level="4.5.9" data-path="modeling-with-exponential-and-logarithmic-functions.html"><a href="modeling-with-exponential-and-logarithmic-functions.html#practice-problems-with-solutions-29"><i class="fa fa-check"></i><b>4.5.9</b> Practice Problems with Solutions</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="trigonometric-functions-of-real-numbers.html"><a href="trigonometric-functions-of-real-numbers.html"><i class="fa fa-check"></i><b>5</b> Trigonometric Functions of Real Numbers</a>
+<ul>
+<li class="chapter" data-level="5.1" data-path="the-unit-circle.html"><a href="the-unit-circle.html"><i class="fa fa-check"></i><b>5.1</b> The Unit Circle</a>
+<ul>
+<li class="chapter" data-level="5.1.1" data-path="the-unit-circle.html"><a href="the-unit-circle.html#learning-objectives-30"><i class="fa fa-check"></i><b>5.1.1</b> Learning Objectives</a></li>
+<li class="chapter" data-level="5.1.2" data-path="the-unit-circle.html"><a href="the-unit-circle.html#terminal-points-on-the-unit-circle"><i class="fa fa-check"></i><b>5.1.2</b> Terminal Points on the Unit Circle</a></li>
+<li class="chapter" data-level="5.1.3" data-path="the-unit-circle.html"><a href="the-unit-circle.html#common-terminal-points"><i class="fa fa-check"></i><b>5.1.3</b> Common Terminal Points</a></li>
+<li class="chapter" data-level="5.1.4" data-path="the-unit-circle.html"><a href="the-unit-circle.html#coterminal-values-and-periodicity"><i class="fa fa-check"></i><b>5.1.4</b> Coterminal Values and Periodicity</a></li>
+<li class="chapter" data-level="5.1.5" data-path="the-unit-circle.html"><a href="the-unit-circle.html#reference-numbers-and-symmetry"><i class="fa fa-check"></i><b>5.1.5</b> Reference Numbers and Symmetry</a></li>
+<li class="chapter" data-level="5.1.6" data-path="the-unit-circle.html"><a href="the-unit-circle.html#conceptual-takeaways-30"><i class="fa fa-check"></i><b>5.1.6</b> Conceptual Takeaways</a></li>
+<li class="chapter" data-level="5.1.7" data-path="the-unit-circle.html"><a href="the-unit-circle.html#skills-you-should-be-able-to-do-30"><i class="fa fa-check"></i><b>5.1.7</b> Skills You Should Be Able to Do</a></li>
+<li class="chapter" data-level="5.1.8" data-path="the-unit-circle.html"><a href="the-unit-circle.html#practice-problems-with-solutions-30"><i class="fa fa-check"></i><b>5.1.8</b> Practice Problems with Solutions</a></li>
+</ul></li>
+<li class="chapter" data-level="5.2" data-path="trigonometric-functions-of-real-numbers-1.html"><a href="trigonometric-functions-of-real-numbers-1.html"><i class="fa fa-check"></i><b>5.2</b> Trigonometric Functions of Real Numbers</a>
+<ul>
+<li class="chapter" data-level="5.2.1" data-path="trigonometric-functions-of-real-numbers-1.html"><a href="trigonometric-functions-of-real-numbers-1.html#learning-objectives-31"><i class="fa fa-check"></i><b>5.2.1</b> Learning Objectives</a></li>
+<li class="chapter" data-level="5.2.2" data-path="trigonometric-functions-of-real-numbers-1.html"><a href="trigonometric-functions-of-real-numbers-1.html#definitions-from-the-unit-circle"><i class="fa fa-check"></i><b>5.2.2</b> Definitions from the Unit Circle</a></li>
+<li class="chapter" data-level="5.2.3" data-path="trigonometric-functions-of-real-numbers-1.html"><a href="trigonometric-functions-of-real-numbers-1.html#exact-values-and-signs"><i class="fa fa-check"></i><b>5.2.3</b> Exact Values and Signs</a></li>
+<li class="chapter" data-level="5.2.4" data-path="trigonometric-functions-of-real-numbers-1.html"><a href="trigonometric-functions-of-real-numbers-1.html#identities-and-periodicity"><i class="fa fa-check"></i><b>5.2.4</b> Identities and Periodicity</a></li>
+<li class="chapter" data-level="5.2.5" data-path="trigonometric-functions-of-real-numbers-1.html"><a href="trigonometric-functions-of-real-numbers-1.html#even-and-odd-trigonometric-functions"><i class="fa fa-check"></i><b>5.2.5</b> Even and Odd Trigonometric Functions</a></li>
+<li class="chapter" data-level="5.2.6" data-path="trigonometric-functions-of-real-numbers-1.html"><a href="trigonometric-functions-of-real-numbers-1.html#conceptual-takeaways-31"><i class="fa fa-check"></i><b>5.2.6</b> Conceptual Takeaways</a></li>
+<li class="chapter" data-level="5.2.7" data-path="trigonometric-functions-of-real-numbers-1.html"><a href="trigonometric-functions-of-real-numbers-1.html#skills-you-should-be-able-to-do-31"><i class="fa fa-check"></i><b>5.2.7</b> Skills You Should Be Able to Do</a></li>
+<li class="chapter" data-level="5.2.8" data-path="trigonometric-functions-of-real-numbers-1.html"><a href="trigonometric-functions-of-real-numbers-1.html#practice-problems-with-solutions-31"><i class="fa fa-check"></i><b>5.2.8</b> Practice Problems with Solutions</a></li>
+</ul></li>
+<li class="chapter" data-level="5.3" data-path="trigonometric-graphs.html"><a href="trigonometric-graphs.html"><i class="fa fa-check"></i><b>5.3</b> Trigonometric Graphs</a>
+<ul>
+<li class="chapter" data-level="5.3.1" data-path="trigonometric-graphs.html"><a href="trigonometric-graphs.html#learning-objectives-32"><i class="fa fa-check"></i><b>5.3.1</b> Learning Objectives</a></li>
+<li class="chapter" data-level="5.3.2" data-path="trigonometric-graphs.html"><a href="trigonometric-graphs.html#basic-sine-and-cosine-graphs"><i class="fa fa-check"></i><b>5.3.2</b> Basic Sine and Cosine Graphs</a></li>
+<li class="chapter" data-level="5.3.3" data-path="trigonometric-graphs.html"><a href="trigonometric-graphs.html#amplitude-period-and-midline"><i class="fa fa-check"></i><b>5.3.3</b> Amplitude, Period, and Midline</a></li>
+<li class="chapter" data-level="5.3.4" data-path="trigonometric-graphs.html"><a href="trigonometric-graphs.html#phase-shifts"><i class="fa fa-check"></i><b>5.3.4</b> Phase Shifts</a></li>
+<li class="chapter" data-level="5.3.5" data-path="trigonometric-graphs.html"><a href="trigonometric-graphs.html#writing-a-sinusoidal-equation"><i class="fa fa-check"></i><b>5.3.5</b> Writing a Sinusoidal Equation</a></li>
+<li class="chapter" data-level="5.3.6" data-path="trigonometric-graphs.html"><a href="trigonometric-graphs.html#conceptual-takeaways-32"><i class="fa fa-check"></i><b>5.3.6</b> Conceptual Takeaways</a></li>
+<li class="chapter" data-level="5.3.7" data-path="trigonometric-graphs.html"><a href="trigonometric-graphs.html#skills-you-should-be-able-to-do-32"><i class="fa fa-check"></i><b>5.3.7</b> Skills You Should Be Able to Do</a></li>
+<li class="chapter" data-level="5.3.8" data-path="trigonometric-graphs.html"><a href="trigonometric-graphs.html#practice-problems-with-solutions-32"><i class="fa fa-check"></i><b>5.3.8</b> Practice Problems with Solutions</a></li>
+</ul></li>
+<li class="chapter" data-level="5.4" data-path="more-trigonometric-graphs.html"><a href="more-trigonometric-graphs.html"><i class="fa fa-check"></i><b>5.4</b> More Trigonometric Graphs</a>
+<ul>
+<li class="chapter" data-level="5.4.1" data-path="more-trigonometric-graphs.html"><a href="more-trigonometric-graphs.html#learning-objectives-33"><i class="fa fa-check"></i><b>5.4.1</b> Learning Objectives</a></li>
+<li class="chapter" data-level="5.4.2" data-path="more-trigonometric-graphs.html"><a href="more-trigonometric-graphs.html#tangent-and-cotangent-graphs"><i class="fa fa-check"></i><b>5.4.2</b> Tangent and Cotangent Graphs</a></li>
+<li class="chapter" data-level="5.4.3" data-path="more-trigonometric-graphs.html"><a href="more-trigonometric-graphs.html#secant-and-cosecant-graphs"><i class="fa fa-check"></i><b>5.4.3</b> Secant and Cosecant Graphs</a></li>
+<li class="chapter" data-level="5.4.4" data-path="more-trigonometric-graphs.html"><a href="more-trigonometric-graphs.html#transformations-and-desmos"><i class="fa fa-check"></i><b>5.4.4</b> Transformations and Desmos</a></li>
+<li class="chapter" data-level="5.4.5" data-path="more-trigonometric-graphs.html"><a href="more-trigonometric-graphs.html#conceptual-takeaways-33"><i class="fa fa-check"></i><b>5.4.5</b> Conceptual Takeaways</a></li>
+<li class="chapter" data-level="5.4.6" data-path="more-trigonometric-graphs.html"><a href="more-trigonometric-graphs.html#skills-you-should-be-able-to-do-33"><i class="fa fa-check"></i><b>5.4.6</b> Skills You Should Be Able to Do</a></li>
+<li class="chapter" data-level="5.4.7" data-path="more-trigonometric-graphs.html"><a href="more-trigonometric-graphs.html#practice-problems-with-solutions-33"><i class="fa fa-check"></i><b>5.4.7</b> Practice Problems with Solutions</a></li>
+</ul></li>
+<li class="chapter" data-level="5.5" data-path="modeling-harmonic-motion.html"><a href="modeling-harmonic-motion.html"><i class="fa fa-check"></i><b>5.5</b> Modeling Harmonic Motion</a>
+<ul>
+<li class="chapter" data-level="5.5.1" data-path="modeling-harmonic-motion.html"><a href="modeling-harmonic-motion.html#learning-objectives-34"><i class="fa fa-check"></i><b>5.5.1</b> Learning Objectives</a></li>
+<li class="chapter" data-level="5.5.2" data-path="modeling-harmonic-motion.html"><a href="modeling-harmonic-motion.html#simple-harmonic-motion"><i class="fa fa-check"></i><b>5.5.2</b> Simple Harmonic Motion</a></li>
+<li class="chapter" data-level="5.5.3" data-path="modeling-harmonic-motion.html"><a href="modeling-harmonic-motion.html#choosing-sine-or-cosine"><i class="fa fa-check"></i><b>5.5.3</b> Choosing Sine or Cosine</a></li>
+<li class="chapter" data-level="5.5.4" data-path="modeling-harmonic-motion.html"><a href="modeling-harmonic-motion.html#sinusoidal-models-with-a-midline"><i class="fa fa-check"></i><b>5.5.4</b> Sinusoidal Models with a Midline</a></li>
+<li class="chapter" data-level="5.5.5" data-path="modeling-harmonic-motion.html"><a href="modeling-harmonic-motion.html#damped-harmonic-motion"><i class="fa fa-check"></i><b>5.5.5</b> Damped Harmonic Motion</a></li>
+<li class="chapter" data-level="5.5.6" data-path="modeling-harmonic-motion.html"><a href="modeling-harmonic-motion.html#conceptual-takeaways-34"><i class="fa fa-check"></i><b>5.5.6</b> Conceptual Takeaways</a></li>
+<li class="chapter" data-level="5.5.7" data-path="modeling-harmonic-motion.html"><a href="modeling-harmonic-motion.html#skills-you-should-be-able-to-do-34"><i class="fa fa-check"></i><b>5.5.7</b> Skills You Should Be Able to Do</a></li>
+<li class="chapter" data-level="5.5.8" data-path="modeling-harmonic-motion.html"><a href="modeling-harmonic-motion.html#practice-problems-with-solutions-34"><i class="fa fa-check"></i><b>5.5.8</b> Practice Problems with Solutions</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="trigonometric-functions-of-angles.html"><a href="trigonometric-functions-of-angles.html"><i class="fa fa-check"></i><b>6</b> Trigonometric Functions of Angles</a>
+<ul>
+<li class="chapter" data-level="6.1" data-path="angle-measure.html"><a href="angle-measure.html"><i class="fa fa-check"></i><b>6.1</b> Angle Measure</a>
+<ul>
+<li class="chapter" data-level="6.1.1" data-path="angle-measure.html"><a href="angle-measure.html#learning-objectives-35"><i class="fa fa-check"></i><b>6.1.1</b> Learning Objectives</a></li>
+<li class="chapter" data-level="6.1.2" data-path="angle-measure.html"><a href="angle-measure.html#degrees-and-radians"><i class="fa fa-check"></i><b>6.1.2</b> Degrees and Radians</a></li>
+<li class="chapter" data-level="6.1.3" data-path="angle-measure.html"><a href="angle-measure.html#coterminal-angles"><i class="fa fa-check"></i><b>6.1.3</b> Coterminal Angles</a></li>
+<li class="chapter" data-level="6.1.4" data-path="angle-measure.html"><a href="angle-measure.html#arc-length-and-sector-area"><i class="fa fa-check"></i><b>6.1.4</b> Arc Length and Sector Area</a></li>
+<li class="chapter" data-level="6.1.5" data-path="angle-measure.html"><a href="angle-measure.html#angular-and-linear-speed"><i class="fa fa-check"></i><b>6.1.5</b> Angular and Linear Speed</a></li>
+<li class="chapter" data-level="6.1.6" data-path="angle-measure.html"><a href="angle-measure.html#conceptual-takeaways-35"><i class="fa fa-check"></i><b>6.1.6</b> Conceptual Takeaways</a></li>
+<li class="chapter" data-level="6.1.7" data-path="angle-measure.html"><a href="angle-measure.html#skills-you-should-be-able-to-do-35"><i class="fa fa-check"></i><b>6.1.7</b> Skills You Should Be Able to Do</a></li>
+<li class="chapter" data-level="6.1.8" data-path="angle-measure.html"><a href="angle-measure.html#practice-problems-with-solutions-35"><i class="fa fa-check"></i><b>6.1.8</b> Practice Problems with Solutions</a></li>
+</ul></li>
+<li class="chapter" data-level="6.2" data-path="trigonometry-of-right-triangles.html"><a href="trigonometry-of-right-triangles.html"><i class="fa fa-check"></i><b>6.2</b> Trigonometry of Right Triangles</a>
+<ul>
+<li class="chapter" data-level="6.2.1" data-path="trigonometry-of-right-triangles.html"><a href="trigonometry-of-right-triangles.html#learning-objectives-36"><i class="fa fa-check"></i><b>6.2.1</b> Learning Objectives</a></li>
+<li class="chapter" data-level="6.2.2" data-path="trigonometry-of-right-triangles.html"><a href="trigonometry-of-right-triangles.html#right-triangle-ratios"><i class="fa fa-check"></i><b>6.2.2</b> Right-Triangle Ratios</a></li>
+<li class="chapter" data-level="6.2.3" data-path="trigonometry-of-right-triangles.html"><a href="trigonometry-of-right-triangles.html#solving-right-triangles"><i class="fa fa-check"></i><b>6.2.3</b> Solving Right Triangles</a></li>
+<li class="chapter" data-level="6.2.4" data-path="trigonometry-of-right-triangles.html"><a href="trigonometry-of-right-triangles.html#angles-of-elevation-and-depression"><i class="fa fa-check"></i><b>6.2.4</b> Angles of Elevation and Depression</a></li>
+<li class="chapter" data-level="6.2.5" data-path="trigonometry-of-right-triangles.html"><a href="trigonometry-of-right-triangles.html#conceptual-takeaways-36"><i class="fa fa-check"></i><b>6.2.5</b> Conceptual Takeaways</a></li>
+<li class="chapter" data-level="6.2.6" data-path="trigonometry-of-right-triangles.html"><a href="trigonometry-of-right-triangles.html#skills-you-should-be-able-to-do-36"><i class="fa fa-check"></i><b>6.2.6</b> Skills You Should Be Able to Do</a></li>
+<li class="chapter" data-level="6.2.7" data-path="trigonometry-of-right-triangles.html"><a href="trigonometry-of-right-triangles.html#practice-problems-with-solutions-36"><i class="fa fa-check"></i><b>6.2.7</b> Practice Problems with Solutions</a></li>
+</ul></li>
+<li class="chapter" data-level="6.3" data-path="trigonometric-functions-of-angles-1.html"><a href="trigonometric-functions-of-angles-1.html"><i class="fa fa-check"></i><b>6.3</b> Trigonometric Functions of Angles</a>
+<ul>
+<li class="chapter" data-level="6.3.1" data-path="trigonometric-functions-of-angles-1.html"><a href="trigonometric-functions-of-angles-1.html#learning-objectives-37"><i class="fa fa-check"></i><b>6.3.1</b> Learning Objectives</a></li>
+<li class="chapter" data-level="6.3.2" data-path="trigonometric-functions-of-angles-1.html"><a href="trigonometric-functions-of-angles-1.html#angles-in-standard-position"><i class="fa fa-check"></i><b>6.3.2</b> Angles in Standard Position</a></li>
+<li class="chapter" data-level="6.3.3" data-path="trigonometric-functions-of-angles-1.html"><a href="trigonometric-functions-of-angles-1.html#definitions-for-general-angles"><i class="fa fa-check"></i><b>6.3.3</b> Definitions for General Angles</a></li>
+<li class="chapter" data-level="6.3.4" data-path="trigonometric-functions-of-angles-1.html"><a href="trigonometric-functions-of-angles-1.html#reference-angles-and-exact-values"><i class="fa fa-check"></i><b>6.3.4</b> Reference Angles and Exact Values</a></li>
+<li class="chapter" data-level="6.3.5" data-path="trigonometric-functions-of-angles-1.html"><a href="trigonometric-functions-of-angles-1.html#conceptual-takeaways-37"><i class="fa fa-check"></i><b>6.3.5</b> Conceptual Takeaways</a></li>
+<li class="chapter" data-level="6.3.6" data-path="trigonometric-functions-of-angles-1.html"><a href="trigonometric-functions-of-angles-1.html#skills-you-should-be-able-to-do-37"><i class="fa fa-check"></i><b>6.3.6</b> Skills You Should Be Able to Do</a></li>
+<li class="chapter" data-level="6.3.7" data-path="trigonometric-functions-of-angles-1.html"><a href="trigonometric-functions-of-angles-1.html#practice-problems-with-solutions-37"><i class="fa fa-check"></i><b>6.3.7</b> Practice Problems with Solutions</a></li>
+</ul></li>
+<li class="chapter" data-level="6.4" data-path="the-law-of-sines.html"><a href="the-law-of-sines.html"><i class="fa fa-check"></i><b>6.4</b> The Law of Sines</a>
+<ul>
+<li class="chapter" data-level="6.4.1" data-path="the-law-of-sines.html"><a href="the-law-of-sines.html#learning-objectives-38"><i class="fa fa-check"></i><b>6.4.1</b> Learning Objectives</a></li>
+<li class="chapter" data-level="6.4.2" data-path="the-law-of-sines.html"><a href="the-law-of-sines.html#the-law-of-sines-1"><i class="fa fa-check"></i><b>6.4.2</b> The Law of Sines</a></li>
+<li class="chapter" data-level="6.4.3" data-path="the-law-of-sines.html"><a href="the-law-of-sines.html#the-ambiguous-ssa-case"><i class="fa fa-check"></i><b>6.4.3</b> The Ambiguous SSA Case</a></li>
+<li class="chapter" data-level="6.4.4" data-path="the-law-of-sines.html"><a href="the-law-of-sines.html#applications"><i class="fa fa-check"></i><b>6.4.4</b> Applications</a></li>
+<li class="chapter" data-level="6.4.5" data-path="the-law-of-sines.html"><a href="the-law-of-sines.html#conceptual-takeaways-38"><i class="fa fa-check"></i><b>6.4.5</b> Conceptual Takeaways</a></li>
+<li class="chapter" data-level="6.4.6" data-path="the-law-of-sines.html"><a href="the-law-of-sines.html#skills-you-should-be-able-to-do-38"><i class="fa fa-check"></i><b>6.4.6</b> Skills You Should Be Able to Do</a></li>
+<li class="chapter" data-level="6.4.7" data-path="the-law-of-sines.html"><a href="the-law-of-sines.html#practice-problems-with-solutions-38"><i class="fa fa-check"></i><b>6.4.7</b> Practice Problems with Solutions</a></li>
+</ul></li>
+<li class="chapter" data-level="6.5" data-path="the-law-of-cosines.html"><a href="the-law-of-cosines.html"><i class="fa fa-check"></i><b>6.5</b> The Law of Cosines</a>
+<ul>
+<li class="chapter" data-level="6.5.1" data-path="the-law-of-cosines.html"><a href="the-law-of-cosines.html#learning-objectives-39"><i class="fa fa-check"></i><b>6.5.1</b> Learning Objectives</a></li>
+<li class="chapter" data-level="6.5.2" data-path="the-law-of-cosines.html"><a href="the-law-of-cosines.html#the-law-of-cosines-1"><i class="fa fa-check"></i><b>6.5.2</b> The Law of Cosines</a></li>
+<li class="chapter" data-level="6.5.3" data-path="the-law-of-cosines.html"><a href="the-law-of-cosines.html#solving-sss-triangles"><i class="fa fa-check"></i><b>6.5.3</b> Solving SSS Triangles</a></li>
+<li class="chapter" data-level="6.5.4" data-path="the-law-of-cosines.html"><a href="the-law-of-cosines.html#area-and-herons-formula"><i class="fa fa-check"></i><b>6.5.4</b> Area and Heron’s Formula</a></li>
+<li class="chapter" data-level="6.5.5" data-path="the-law-of-cosines.html"><a href="the-law-of-cosines.html#conceptual-takeaways-39"><i class="fa fa-check"></i><b>6.5.5</b> Conceptual Takeaways</a></li>
+<li class="chapter" data-level="6.5.6" data-path="the-law-of-cosines.html"><a href="the-law-of-cosines.html#skills-you-should-be-able-to-do-39"><i class="fa fa-check"></i><b>6.5.6</b> Skills You Should Be Able to Do</a></li>
+<li class="chapter" data-level="6.5.7" data-path="the-law-of-cosines.html"><a href="the-law-of-cosines.html#practice-problems-with-solutions-39"><i class="fa fa-check"></i><b>6.5.7</b> Practice Problems with Solutions</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="7" data-path="analytic-trigonometry.html"><a href="analytic-trigonometry.html"><i class="fa fa-check"></i><b>7</b> Analytic Trigonometry</a>
+<ul>
+<li class="chapter" data-level="7.1" data-path="trigonometric-identities.html"><a href="trigonometric-identities.html"><i class="fa fa-check"></i><b>7.1</b> Trigonometric Identities</a>
+<ul>
+<li class="chapter" data-level="7.1.1" data-path="trigonometric-identities.html"><a href="trigonometric-identities.html#learning-objectives-40"><i class="fa fa-check"></i><b>7.1.1</b> Learning Objectives</a></li>
+<li class="chapter" data-level="7.1.2" data-path="trigonometric-identities.html"><a href="trigonometric-identities.html#fundamental-identities"><i class="fa fa-check"></i><b>7.1.2</b> Fundamental Identities</a></li>
+<li class="chapter" data-level="7.1.3" data-path="trigonometric-identities.html"><a href="trigonometric-identities.html#verifying-identities"><i class="fa fa-check"></i><b>7.1.3</b> Verifying Identities</a></li>
+<li class="chapter" data-level="7.1.4" data-path="trigonometric-identities.html"><a href="trigonometric-identities.html#identity-proof-strategies"><i class="fa fa-check"></i><b>7.1.4</b> Identity-Proof Strategies</a></li>
+<li class="chapter" data-level="7.1.5" data-path="trigonometric-identities.html"><a href="trigonometric-identities.html#conceptual-takeaways-40"><i class="fa fa-check"></i><b>7.1.5</b> Conceptual Takeaways</a></li>
+<li class="chapter" data-level="7.1.6" data-path="trigonometric-identities.html"><a href="trigonometric-identities.html#skills-you-should-be-able-to-do-40"><i class="fa fa-check"></i><b>7.1.6</b> Skills You Should Be Able to Do</a></li>
+<li class="chapter" data-level="7.1.7" data-path="trigonometric-identities.html"><a href="trigonometric-identities.html#practice-problems-with-solutions-40"><i class="fa fa-check"></i><b>7.1.7</b> Practice Problems with Solutions</a></li>
+</ul></li>
+<li class="chapter" data-level="7.2" data-path="addition-and-subtraction-formulas.html"><a href="addition-and-subtraction-formulas.html"><i class="fa fa-check"></i><b>7.2</b> Addition and Subtraction Formulas</a>
+<ul>
+<li class="chapter" data-level="7.2.1" data-path="addition-and-subtraction-formulas.html"><a href="addition-and-subtraction-formulas.html#learning-objectives-41"><i class="fa fa-check"></i><b>7.2.1</b> Learning Objectives</a></li>
+<li class="chapter" data-level="7.2.2" data-path="addition-and-subtraction-formulas.html"><a href="addition-and-subtraction-formulas.html#sine-and-cosine-formulas"><i class="fa fa-check"></i><b>7.2.2</b> Sine and Cosine Formulas</a></li>
+<li class="chapter" data-level="7.2.3" data-path="addition-and-subtraction-formulas.html"><a href="addition-and-subtraction-formulas.html#tangent-formulas"><i class="fa fa-check"></i><b>7.2.3</b> Tangent Formulas</a></li>
+<li class="chapter" data-level="7.2.4" data-path="addition-and-subtraction-formulas.html"><a href="addition-and-subtraction-formulas.html#applying-known-values"><i class="fa fa-check"></i><b>7.2.4</b> Applying Known Values</a></li>
+<li class="chapter" data-level="7.2.5" data-path="addition-and-subtraction-formulas.html"><a href="addition-and-subtraction-formulas.html#conceptual-takeaways-41"><i class="fa fa-check"></i><b>7.2.5</b> Conceptual Takeaways</a></li>
+<li class="chapter" data-level="7.2.6" data-path="addition-and-subtraction-formulas.html"><a href="addition-and-subtraction-formulas.html#skills-you-should-be-able-to-do-41"><i class="fa fa-check"></i><b>7.2.6</b> Skills You Should Be Able to Do</a></li>
+<li class="chapter" data-level="7.2.7" data-path="addition-and-subtraction-formulas.html"><a href="addition-and-subtraction-formulas.html#practice-problems-with-solutions-41"><i class="fa fa-check"></i><b>7.2.7</b> Practice Problems with Solutions</a></li>
+</ul></li>
+<li class="chapter" data-level="7.3" data-path="double-angle-half-angle-and-sum-to-product-formulas.html"><a href="double-angle-half-angle-and-sum-to-product-formulas.html"><i class="fa fa-check"></i><b>7.3</b> Double-Angle, Half-Angle, and Sum-to-Product Formulas</a>
+<ul>
+<li class="chapter" data-level="7.3.1" data-path="double-angle-half-angle-and-sum-to-product-formulas.html"><a href="double-angle-half-angle-and-sum-to-product-formulas.html#learning-objectives-42"><i class="fa fa-check"></i><b>7.3.1</b> Learning Objectives</a></li>
+<li class="chapter" data-level="7.3.2" data-path="double-angle-half-angle-and-sum-to-product-formulas.html"><a href="double-angle-half-angle-and-sum-to-product-formulas.html#double-angle-formulas"><i class="fa fa-check"></i><b>7.3.2</b> Double-Angle Formulas</a></li>
+<li class="chapter" data-level="7.3.3" data-path="double-angle-half-angle-and-sum-to-product-formulas.html"><a href="double-angle-half-angle-and-sum-to-product-formulas.html#half-angle-and-power-reduction-formulas"><i class="fa fa-check"></i><b>7.3.3</b> Half-Angle and Power-Reduction Formulas</a></li>
+<li class="chapter" data-level="7.3.4" data-path="double-angle-half-angle-and-sum-to-product-formulas.html"><a href="double-angle-half-angle-and-sum-to-product-formulas.html#product-to-sum-and-sum-to-product-formulas"><i class="fa fa-check"></i><b>7.3.4</b> Product-to-Sum and Sum-to-Product Formulas</a></li>
+<li class="chapter" data-level="7.3.5" data-path="double-angle-half-angle-and-sum-to-product-formulas.html"><a href="double-angle-half-angle-and-sum-to-product-formulas.html#conceptual-takeaways-42"><i class="fa fa-check"></i><b>7.3.5</b> Conceptual Takeaways</a></li>
+<li class="chapter" data-level="7.3.6" data-path="double-angle-half-angle-and-sum-to-product-formulas.html"><a href="double-angle-half-angle-and-sum-to-product-formulas.html#skills-you-should-be-able-to-do-42"><i class="fa fa-check"></i><b>7.3.6</b> Skills You Should Be Able to Do</a></li>
+<li class="chapter" data-level="7.3.7" data-path="double-angle-half-angle-and-sum-to-product-formulas.html"><a href="double-angle-half-angle-and-sum-to-product-formulas.html#practice-problems-with-solutions-42"><i class="fa fa-check"></i><b>7.3.7</b> Practice Problems with Solutions</a></li>
+</ul></li>
+<li class="chapter" data-level="7.4" data-path="inverse-trigonometric-functions.html"><a href="inverse-trigonometric-functions.html"><i class="fa fa-check"></i><b>7.4</b> Inverse Trigonometric Functions</a>
+<ul>
+<li class="chapter" data-level="7.4.1" data-path="inverse-trigonometric-functions.html"><a href="inverse-trigonometric-functions.html#learning-objectives-43"><i class="fa fa-check"></i><b>7.4.1</b> Learning Objectives</a></li>
+<li class="chapter" data-level="7.4.2" data-path="inverse-trigonometric-functions.html"><a href="inverse-trigonometric-functions.html#principal-value-ranges"><i class="fa fa-check"></i><b>7.4.2</b> Principal-Value Ranges</a></li>
+<li class="chapter" data-level="7.4.3" data-path="inverse-trigonometric-functions.html"><a href="inverse-trigonometric-functions.html#compositions-of-functions"><i class="fa fa-check"></i><b>7.4.3</b> Compositions of Functions</a></li>
+<li class="chapter" data-level="7.4.4" data-path="inverse-trigonometric-functions.html"><a href="inverse-trigonometric-functions.html#algebraic-inverse-trigonometric-expressions"><i class="fa fa-check"></i><b>7.4.4</b> Algebraic Inverse-Trigonometric Expressions</a></li>
+<li class="chapter" data-level="7.4.5" data-path="inverse-trigonometric-functions.html"><a href="inverse-trigonometric-functions.html#conceptual-takeaways-43"><i class="fa fa-check"></i><b>7.4.5</b> Conceptual Takeaways</a></li>
+<li class="chapter" data-level="7.4.6" data-path="inverse-trigonometric-functions.html"><a href="inverse-trigonometric-functions.html#skills-you-should-be-able-to-do-43"><i class="fa fa-check"></i><b>7.4.6</b> Skills You Should Be Able to Do</a></li>
+<li class="chapter" data-level="7.4.7" data-path="inverse-trigonometric-functions.html"><a href="inverse-trigonometric-functions.html#practice-problems-with-solutions-43"><i class="fa fa-check"></i><b>7.4.7</b> Practice Problems with Solutions</a></li>
+</ul></li>
+<li class="chapter" data-level="7.5" data-path="trigonometric-equations.html"><a href="trigonometric-equations.html"><i class="fa fa-check"></i><b>7.5</b> Trigonometric Equations</a>
+<ul>
+<li class="chapter" data-level="7.5.1" data-path="trigonometric-equations.html"><a href="trigonometric-equations.html#learning-objectives-44"><i class="fa fa-check"></i><b>7.5.1</b> Learning Objectives</a></li>
+<li class="chapter" data-level="7.5.2" data-path="trigonometric-equations.html"><a href="trigonometric-equations.html#basic-trigonometric-equations"><i class="fa fa-check"></i><b>7.5.2</b> Basic Trigonometric Equations</a></li>
+<li class="chapter" data-level="7.5.3" data-path="trigonometric-equations.html"><a href="trigonometric-equations.html#general-solutions"><i class="fa fa-check"></i><b>7.5.3</b> General Solutions</a></li>
+<li class="chapter" data-level="7.5.4" data-path="trigonometric-equations.html"><a href="trigonometric-equations.html#factoring-and-identities"><i class="fa fa-check"></i><b>7.5.4</b> Factoring and Identities</a></li>
+<li class="chapter" data-level="7.5.5" data-path="trigonometric-equations.html"><a href="trigonometric-equations.html#multiple-angle-and-approximate-equations"><i class="fa fa-check"></i><b>7.5.5</b> Multiple-Angle and Approximate Equations</a></li>
+<li class="chapter" data-level="7.5.6" data-path="trigonometric-equations.html"><a href="trigonometric-equations.html#conceptual-takeaways-44"><i class="fa fa-check"></i><b>7.5.6</b> Conceptual Takeaways</a></li>
+<li class="chapter" data-level="7.5.7" data-path="trigonometric-equations.html"><a href="trigonometric-equations.html#skills-you-should-be-able-to-do-44"><i class="fa fa-check"></i><b>7.5.7</b> Skills You Should Be Able to Do</a></li>
+<li class="chapter" data-level="7.5.8" data-path="trigonometric-equations.html"><a href="trigonometric-equations.html#practice-problems-with-solutions-44"><i class="fa fa-check"></i><b>7.5.8</b> Practice Problems with Solutions</a></li>
+</ul></li>
+</ul></li>
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Precalculus: Concepts, Skills, and Applications</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="coordinate-geometry" class="section level2 hasAnchor" number="1.8">
+<h2><span class="header-section-number">1.8</span> Coordinate Geometry<a href="coordinate-geometry.html#coordinate-geometry" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<hr />
+<div id="learning-objectives-7" class="section level3 hasAnchor" number="1.8.1">
+<h3><span class="header-section-number">1.8.1</span> Learning Objectives<a href="coordinate-geometry.html#learning-objectives-7" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<div class="objectives">
+<p>By the end of this section, you should be able to:</p>
+<ul>
+<li>plot points and describe regions in the coordinate plane;</li>
+<li>calculate distances and midpoints;</li>
+<li>graph equations and find intercepts;</li>
+<li>write and interpret equations of circles; and</li>
+<li>test graphs for symmetry.</li>
+</ul>
+</div>
+<hr />
+</div>
+<div id="points-distance-and-midpoint" class="section level3 hasAnchor" number="1.8.2">
+<h3><span class="header-section-number">1.8.2</span> Points, Distance, and Midpoint<a href="coordinate-geometry.html#points-distance-and-midpoint" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>The coordinate plane uses a horizontal <span class="math inline">\(x\)</span>-axis and vertical <span class="math inline">\(y\)</span>-axis. Their intersection is the origin <span class="math inline">\((0,0)\)</span>. A point <span class="math inline">\((x,y)\)</span> is located by moving <span class="math inline">\(x\)</span> units horizontally and <span class="math inline">\(y\)</span> units vertically.</p>
+<p>For <span class="math inline">\(A(x_1,y_1)\)</span> and <span class="math inline">\(B(x_2,y_2)\)</span>, the distance formula is</p>
+<p><span class="math display">\[
+d(A,B)=\sqrt{(x_2-x_1)^2+(y_2-y_1)^2},
+\]</span></p>
+<p>and the midpoint is</p>
+<p><span class="math display">\[
+M=\left(\frac{x_1+x_2}{2},\frac{y_1+y_2}{2}\right).
+\]</span></p>
+<div class="example">
+<p><span id="exm:unlabeled-div-84" class="example"><strong>Example 1.38  </strong></span><strong>Distance and Midpoint</strong></p>
+<p>For <span class="math inline">\(A(-2,5)\)</span> and <span class="math inline">\(B(4,-3)\)</span>,</p>
+<p><span class="math display">\[
+d=\sqrt{6^2+(-8)^2}=10,
+\]</span></p>
+<p><span class="math display">\[
+M=\left(\frac{-2+4}{2},\frac{5-3}{2}\right)=(1,1).
+\]</span></p>
+</div>
+<div class="exercise">
+<p><span id="exr:unlabeled-div-85" class="exercise"><strong>Exercise 1.44  </strong></span>Identify the quadrant containing <span class="math inline">\((-4,6)\)</span>.</p>
+<details class="answer-dropdown">
+<summary>
+Show answer
+</summary>
+<p><strong>Answer:</strong> II</p>
+</details>
+</div>
+<div class="exercise">
+<p><span id="exr:unlabeled-div-86" class="exercise"><strong>Exercise 1.45  </strong></span>Find the distance from <span class="math inline">\((1,2)\)</span> to <span class="math inline">\((4,6)\)</span>.</p>
+<details class="answer-dropdown">
+<summary>
+Show answer
+</summary>
+<p><strong>Answer:</strong> <span class="math inline">\(5\)</span></p>
+</details>
+</div>
+<div class="exercise">
+<p><span id="exr:unlabeled-div-87" class="exercise"><strong>Exercise 1.46  </strong></span>Find the midpoint of <span class="math inline">\((-5,3)\)</span> and <span class="math inline">\((7,-1)\)</span>.</p>
+<details class="answer-dropdown">
+<summary>
+Show answer
+</summary>
+<p><strong>Answer:</strong> <span class="math inline">\((1,1)\)</span></p>
+</details>
+</div>
+<hr />
+</div>
+<div id="graphs-and-intercepts" class="section level3 hasAnchor" number="1.8.3">
+<h3><span class="header-section-number">1.8.3</span> Graphs and Intercepts<a href="coordinate-geometry.html#graphs-and-intercepts" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>The graph of an equation in <span class="math inline">\(x\)</span> and <span class="math inline">\(y\)</span> consists of all points whose coordinates satisfy the equation.</p>
+<ul>
+<li>To find <span class="math inline">\(x\)</span>-intercepts, set <span class="math inline">\(y=0\)</span>.</li>
+<li>To find <span class="math inline">\(y\)</span>-intercepts, set <span class="math inline">\(x=0\)</span>.</li>
+</ul>
+<div class="example">
+<p><span id="exm:unlabeled-div-88" class="example"><strong>Example 1.39  </strong></span><strong>Intercepts</strong></p>
+<p>For <span class="math inline">\(y=x^2-4\)</span>, setting <span class="math inline">\(y=0\)</span> gives <span class="math inline">\(x=\pm2\)</span>. Setting <span class="math inline">\(x=0\)</span> gives <span class="math inline">\(y=-4\)</span>.</p>
+<p>The intercepts are <span class="math inline">\(\boxed{(-2,0),(2,0),(0,-4)}\)</span>.</p>
+</div>
+<div class="exercise">
+<p><span id="exr:unlabeled-div-89" class="exercise"><strong>Exercise 1.47  </strong></span>Find both intercepts of <span class="math inline">\(2x+3y=12\)</span>.</p>
+<details class="answer-dropdown">
+<summary>
+Show answer
+</summary>
+<p><strong>Answer:</strong> <span class="math inline">\((6,0)\)</span> and <span class="math inline">\((0,4)\)</span></p>
+</details>
+</div>
+<hr />
+</div>
+<div id="circles" class="section level3 hasAnchor" number="1.8.4">
+<h3><span class="header-section-number">1.8.4</span> Circles<a href="coordinate-geometry.html#circles" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>A circle with centre <span class="math inline">\((h,k)\)</span> and radius <span class="math inline">\(r\)</span> has equation</p>
+<p><span class="math display">\[
+(x-h)^2+(y-k)^2=r^2.
+\]</span></p>
+<div class="example">
+<p><span id="exm:unlabeled-div-90" class="example"><strong>Example 1.40  </strong></span><strong>Circle from Centre and Radius</strong></p>
+<p>A circle with centre <span class="math inline">\((3,-2)\)</span> and radius <span class="math inline">\(5\)</span> has equation</p>
+<p><span class="math display">\[
+\boxed{(x-3)^2+(y+2)^2=25}.
+\]</span></p>
+</div>
+<div class="exercise">
+<p><span id="exr:unlabeled-div-91" class="exercise"><strong>Exercise 1.48  </strong></span>State the centre and radius of <span class="math inline">\((x+1)^2+(y-4)^2=9\)</span>.</p>
+<details class="answer-dropdown">
+<summary>
+Show answer
+</summary>
+<p><strong>Answer:</strong> centre <span class="math inline">\((-1,4)\)</span>, radius <span class="math inline">\(3\)</span></p>
+</details>
+</div>
+<p>An expanded circle equation can be returned to standard form by completing the square in both <span class="math inline">\(x\)</span> and <span class="math inline">\(y\)</span>.</p>
+<div class="example">
+<p><span id="exm:unlabeled-div-92" class="example"><strong>Example 1.41  </strong></span><strong>Circle from Expanded Form</strong></p>
+<p>Rewrite <span class="math inline">\(x^2+y^2-6x+4y-12=0\)</span>.</p>
+<p><span class="math display">\[
+(x^2-6x)+(y^2+4y)=12
+\]</span></p>
+<p><span class="math display">\[
+(x-3)^2+(y+2)^2=25.
+\]</span></p>
+<p>The centre is <span class="math inline">\((3,-2)\)</span> and the radius is <span class="math inline">\(5\)</span>.</p>
+</div>
+<hr />
+</div>
+<div id="symmetry" class="section level3 hasAnchor" number="1.8.5">
+<h3><span class="header-section-number">1.8.5</span> Symmetry<a href="coordinate-geometry.html#symmetry" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Symmetry can be tested algebraically:</p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Symmetry</th>
+<th align="left">Substitution that leaves the equation unchanged</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"><span class="math inline">\(x\)</span>-axis</td>
+<td align="left">Replace <span class="math inline">\(y\)</span> by <span class="math inline">\(-y\)</span></td>
+</tr>
+<tr class="even">
+<td align="left"><span class="math inline">\(y\)</span>-axis</td>
+<td align="left">Replace <span class="math inline">\(x\)</span> by <span class="math inline">\(-x\)</span></td>
+</tr>
+<tr class="odd">
+<td align="left">Origin</td>
+<td align="left">Replace <span class="math inline">\((x,y)\)</span> by <span class="math inline">\((-x,-y)\)</span></td>
+</tr>
+</tbody>
+</table>
+<div class="example">
+<p><span id="exm:unlabeled-div-93" class="example"><strong>Example 1.42  </strong></span><strong>Symmetry</strong></p>
+<p>The equation <span class="math inline">\(y=x^4-2x^2\)</span> is unchanged when <span class="math inline">\(x\)</span> is replaced by <span class="math inline">\(-x\)</span>, so its graph is symmetric about the <span class="math inline">\(y\)</span>-axis.</p>
+</div>
+<hr />
+</div>
+<div id="conceptual-takeaways-7" class="section level3 hasAnchor" number="1.8.6">
+<h3><span class="header-section-number">1.8.6</span> Conceptual Takeaways<a href="coordinate-geometry.html#conceptual-takeaways-7" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<div class="takeaways">
+<ul>
+<li>Ordered pairs connect algebraic equations with geometric locations.</li>
+<li>Distance comes from the Pythagorean theorem.</li>
+<li>Midpoint coordinates are averages.</li>
+<li>Intercepts are found by setting one coordinate equal to zero.</li>
+<li>Standard form reveals a circle’s centre and radius.</li>
+<li>Symmetry can reduce the amount of graphing needed.</li>
+</ul>
+</div>
+<hr />
+</div>
+<div id="skills-you-should-be-able-to-do-7" class="section level3 hasAnchor" number="1.8.7">
+<h3><span class="header-section-number">1.8.7</span> Skills You Should Be Able to Do<a href="coordinate-geometry.html#skills-you-should-be-able-to-do-7" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<div class="skills">
+<ul>
+<li>Plot points and describe plane regions.</li>
+<li>Apply distance and midpoint formulas.</li>
+<li>Determine whether a point satisfies an equation.</li>
+<li>Find intercepts and sketch basic graphs.</li>
+<li>Write and interpret circle equations.</li>
+<li>Complete the square for circles.</li>
+<li>Test graphs for symmetry.</li>
+</ul>
+</div>
+<hr />
+</div>
+<div id="practice-problems-with-solutions-7" class="section level3 hasAnchor" number="1.8.8">
+<h3><span class="header-section-number">1.8.8</span> Practice Problems with Solutions<a href="coordinate-geometry.html#practice-problems-with-solutions-7" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<ol style="list-style-type: decimal">
+<li><p>Find the distance between <span class="math inline">\((-3,-1)\)</span> and <span class="math inline">\((5,5)\)</span>.</p>
+<details class="answer-dropdown solution-dropdown">
+<summary>
+<p>Show Solution</p>
+</summary>
+<p><span class="math display">\[
+d=\sqrt{8^2+6^2}=\boxed{10}.
+\]</span></p>
+</details></li>
+<li><p>Find the midpoint of <span class="math inline">\((8,-6)\)</span> and <span class="math inline">\((-2,4)\)</span>.</p>
+<details class="answer-dropdown solution-dropdown">
+<summary>
+<p>Show Solution</p>
+</summary>
+<p><span class="math display">\[
+M=\left(\frac{8-2}{2},\frac{-6+4}{2}\right)=\boxed{(3,-1)}.
+\]</span></p>
+</details></li>
+<li><p>Determine whether <span class="math inline">\((2,7)\)</span> lies on <span class="math inline">\(y=x^2+3\)</span>.</p>
+<details class="answer-dropdown solution-dropdown">
+<summary>
+<p>Show Solution</p>
+</summary>
+<p>Since <span class="math inline">\(2^2+3=7\)</span>, the point <span class="math inline">\(\boxed{\text{does lie on the graph}}\)</span>.</p>
+</details></li>
+<li><p>Find the intercepts of <span class="math inline">\(y=2x^2-8\)</span>.</p>
+<details class="answer-dropdown solution-dropdown">
+<summary>
+<p>Show Solution</p>
+</summary>
+<p>Setting <span class="math inline">\(y=0\)</span>:
+<span class="math display">\[
+2x^2-8=0\Longrightarrow x=\pm2.
+\]</span>
+Setting <span class="math inline">\(x=0\)</span> gives <span class="math inline">\(y=-8\)</span>. The intercepts are
+<span class="math display">\[
+\boxed{(-2,0),(2,0),(0,-8)}.
+\]</span></p>
+</details></li>
+<li><p>Write the equation of the circle with centre <span class="math inline">\((-4,1)\)</span> and radius <span class="math inline">\(6\)</span>.</p>
+<details class="answer-dropdown solution-dropdown">
+<summary>
+<p>Show Solution</p>
+</summary>
+<p><span class="math display">\[
+\boxed{(x+4)^2+(y-1)^2=36}.
+\]</span></p>
+</details></li>
+<li><p>Find the centre and radius of <span class="math inline">\(x^2+y^2+8x-2y-8=0\)</span>.</p>
+<details class="answer-dropdown solution-dropdown">
+<summary>
+<p>Show Solution</p>
+</summary>
+<p><span class="math display">\[
+(x^2+8x)+(y^2-2y)=8
+\]</span>
+<span class="math display">\[
+(x+4)^2+(y-1)^2=25.
+\]</span>
+The centre is <span class="math inline">\(\boxed{(-4,1)}\)</span> and the radius is <span class="math inline">\(\boxed{5}\)</span>.</p>
+</details></li>
+<li><p>Test <span class="math inline">\(x^2+y^2=16\)</span> for symmetry.</p>
+<details class="answer-dropdown solution-dropdown">
+<summary>
+<p>Show Solution</p>
+</summary>
+<p>Replacing <span class="math inline">\(x\)</span>, <span class="math inline">\(y\)</span>, or both by their opposites leaves the equation unchanged. The circle is symmetric about the <span class="math inline">\(x\)</span>-axis, <span class="math inline">\(y\)</span>-axis, and origin.</p>
+</details></li>
+</ol>
+<hr />
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="inequalities.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="graphing-with-desmos-solving-equations-and-inequalities-graphically.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+  "sharing": null,
+  "fontsettings": {
+    "theme": "white",
+    "family": "sans",
+    "size": 2
+  },
+  "edit": {
+    "link": null,
+    "text": null
+  },
+  "history": {
+    "link": null,
+    "text": null
+  },
+  "view": {
+    "link": null,
+    "text": null
+  },
+  "download": null,
+  "search": {
+    "engine": "fuse",
+    "options": null
+  },
+  "toc": {
+    "collapse": "section"
+  }
+});
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/latest.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:")
+      if (/^https?:/.test(src))
+        src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+</body>
+
+</html>
