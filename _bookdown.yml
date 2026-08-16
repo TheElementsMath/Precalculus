@@ -1,4 +1,5 @@
 book_filename: "precalculus"
+output_dir: "docs"
 delete_merged_file: true
 new_session: true
 language:
@@ -13,4 +14,4 @@ rmd_files:
   - "05-trigonometric-functions-real-numbers.Rmd"
   - "06-trigonometric-functions-angles.Rmd"
   - "07-analytic-trigonometry.Rmd"
-output_dir: "docs"
+
